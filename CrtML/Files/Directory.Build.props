@@ -1,0 +1,16 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtML/Schemas/MLClassificationResult/MLClassificationResult.cs" Condition="Exists('$(PkgPath)/CrtML/Schemas/MLClassificationResult/MLClassificationResult.cs')" />
+		<Compile Include="$(PkgPath)/CrtML/Schemas/MLConfidentValueMethod/MLConfidentValueMethod.cs" Condition="Exists('$(PkgPath)/CrtML/Schemas/MLConfidentValueMethod/MLConfidentValueMethod.cs')" />
+		<Compile Include="$(PkgPath)/CrtML/Schemas/MLError/MLError.cs" Condition="Exists('$(PkgPath)/CrtML/Schemas/MLError/MLError.cs')" />
+		<Compile Include="$(PkgPath)/CrtML/Schemas/MLModel/MLModel.cs" Condition="Exists('$(PkgPath)/CrtML/Schemas/MLModel/MLModel.cs')" />
+		<Compile Include="$(PkgPath)/CrtML/Schemas/MLModelColumn/MLModelColumn.cs" Condition="Exists('$(PkgPath)/CrtML/Schemas/MLModelColumn/MLModelColumn.cs')" />
+		<Compile Include="$(PkgPath)/CrtML/Schemas/MLModelColumnType/MLModelColumnType.cs" Condition="Exists('$(PkgPath)/CrtML/Schemas/MLModelColumnType/MLModelColumnType.cs')" />
+		<Compile Include="$(PkgPath)/CrtML/Schemas/MLModelState/MLModelState.cs" Condition="Exists('$(PkgPath)/CrtML/Schemas/MLModelState/MLModelState.cs')" />
+		<Compile Include="$(PkgPath)/CrtML/Schemas/MLModelTag/MLModelTag.cs" Condition="Exists('$(PkgPath)/CrtML/Schemas/MLModelTag/MLModelTag.cs')" />
+		<Compile Include="$(PkgPath)/CrtML/Schemas/MLPrediction/MLPrediction.cs" Condition="Exists('$(PkgPath)/CrtML/Schemas/MLPrediction/MLPrediction.cs')" />
+		<Compile Include="$(PkgPath)/CrtML/Schemas/MLProblemType/MLProblemType.cs" Condition="Exists('$(PkgPath)/CrtML/Schemas/MLProblemType/MLProblemType.cs')" />
+		<Compile Include="$(PkgPath)/CrtML/Schemas/MLTaskStartMethod/MLTaskStartMethod.cs" Condition="Exists('$(PkgPath)/CrtML/Schemas/MLTaskStartMethod/MLTaskStartMethod.cs')" />
+		<Compile Include="$(PkgPath)/CrtML/Schemas/MLTrainSession/MLTrainSession.cs" Condition="Exists('$(PkgPath)/CrtML/Schemas/MLTrainSession/MLTrainSession.cs')" />
+	</ItemGroup>
+</Project>

@@ -1,0 +1,92 @@
+﻿{
+    "Name":  "Lead and Opportunity Management",
+    "Description":  "",
+    "Maintainer":  "Creatio",
+    "Icon":  "PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNy43NDg1IDE1Ljc2OTlDMTUuMDIxIDE1Ljc2OTkgMTIuNjE1OCAxNy4xNzQ5IDExLjE5MDEgMTkuMzEzN0M5Ljk0OTY3IDE5LjEyNDEgOC44Njg5MyAxOC4zMDgxIDguMzM3MjIgMTcuMTIwOUw2LjY2MzkzIDEzLjM4NDhDNS41MjkyNCAxMC44NTEzIDcuMzQzMzUgNy45NjkxMiAxMC4wNzI3IDcuOTY5MTJIMzkuNzQ2NkM0Mi40MTc5IDcuOTY5MTIgNDQuMjMxNyAxMC43Mzk5IDQzLjIwOTIgMTMuMjU4N0w0MS42OTI1IDE2Ljk5NDhDNDEuMTEyMyAxOC40MjQxIDM5Ljc0NTcgMTkuMzU1OSAzOC4yMjk5IDE5LjM1NTlIMjQuMzM0N0MyMi45MTI3IDE3LjE5MzQgMjAuNDkzOCAxNS43Njk5IDE3Ljc0ODUgMTUuNzY5OVpNMjUuNjczMiAyMy44NTIxQzI1LjY3MzIgMjMuNDI4OCAyNS42NDEzIDIzLjAxMzIgMjUuNTc5OCAyMi42MDc1SDM2LjAxOTdDMzcuODA1NiAyMi42MDc1IDM5LjAxNDkgMjQuNDY0MyAzOC4zMjM2IDI2LjE0NUwzNy4zOTc2IDI4LjM5NThDMzYuODEzMyAyOS44MTYxIDM1LjQ1MTIgMzAuNzQwMiAzMy45NDE5IDMwLjc0MDJIMjYuNjA2NUMyNS44MTEyIDMwLjMyMDEgMjQuOTQ4OSAzMC4wMzg5IDI0LjA1NTYgMjkuOTEyTDIzLjU4NzIgMjkuMzE2M0MyNC44ODA3IDI3Ljg3OTIgMjUuNjczMiAyNS45NjA4IDI1LjY3MzIgMjMuODUyMVpNMzAuNTQ3MiAzMy45OTQzSDI5Ljg5MDdDMzAuNTM4MSAzNS4xODQgMzAuODg2NSAzNi41MzIxIDMwLjg4NjUgMzcuOTE2OUMzMC44ODY1IDM4Ljg1MjEgMzAuNjU0NCAzOS43MzIgMzAuMjQ1OCA0MC41SDMwLjU0NzJDMzEuODAxMyA0MC41IDMyLjkzODggMzkuNzQ5MyAzMy40NTM1IDM4LjU4MjFDMzQuNDAyNiAzNi40Mjk1IDMyLjg1OTkgMzMuOTk0MyAzMC41NDcyIDMzLjk5NDNaTTI4LjQzODcgMzguMTA5OUMyOC40Mzg3IDM5LjM1MTUgMjcuNDMyMiA0MC4zNTggMjYuMTkwNiA0MC4zNThIOS4zMjI1NkM4LjA4MTUxIDQwLjM1OCA3LjA3NTIyIDM5LjM1MjMgNy4wNzQ0NyAzOC4xMTEzTDcuMDc0MjIgMzcuNjg3NUM3LjA3NDIyIDM2LjI3MSA3LjYzNzMyIDM0LjkxMjUgOC42Mzk2NiAzMy45MTA5QzkuNjQxOTkgMzIuOTA5MiAxMS4wMDE0IDMyLjM0NjUgMTIuNDE4OSAzMi4zNDY1TDIzLjA5MzkgMzIuMzQ2NUMyNC41MTE1IDMyLjM0NjUgMjUuODcwOSAzMi45MDkyIDI2Ljg3MzIgMzMuOTEwOUMyNy44NzU2IDM0LjkxMjUgMjguNDM4NyAzNi4yNzEgMjguNDM4NyAzNy42ODc1VjM4LjEwOTlaTTIzLjA5MjYgMjMuNzA4MkMyMy4wOTI2IDI2LjY1NzkgMjAuNjk5NyAyOS4wNDkyIDE3Ljc0NzkgMjkuMDQ5MkMxNC43OTYxIDI5LjA0OTIgMTIuNDAzMiAyNi42NTc5IDEyLjQwMzIgMjMuNzA4MkMxMi40MDMyIDIwLjc1ODUgMTQuNzk2MSAxOC4zNjcyIDE3Ljc0NzkgMTguMzY3MkMyMC42OTk3IDE4LjM2NzIgMjMuMDkyNiAyMC43NTg1IDIzLjA5MjYgMjMuNzA4MloiIGZpbGw9IndoaXRlIi8+Cjwvc3ZnPg==",
+    "IconName":  "SectionIcon_LeadAndOppMgmt.svg",
+    "Color":  "#03A9F4",
+    "Version":  "1.10.4",
+    "MarketplaceLink":  "",
+    "HelpLink":  "",
+    "OrderLink":  "",
+    "SupportEmail":  "",
+    "Code":  "CrtLeadOppMgmtApp",
+    "Packages":  [
+                     {
+                         "UId":  "51a0fc55-ce4f-a533-0340-b70a0c04b905",
+                         "Name":  "CrtLead"
+                     },
+                     {
+                         "UId":  "7f7fd442-73f5-43b9-aae2-a3e87a53abb3",
+                         "Name":  "CrtLeadOppMgmtApp"
+                     },
+                     {
+                         "UId":  "3f8d4a5e-a1cd-625a-8143-d26ec18bb188",
+                         "Name":  "CrtLeadOppMgmtInC360"
+                     },
+                     {
+                         "UId":  "5de1807c-6d28-19ae-4cb3-a5503c8c5072",
+                         "Name":  "CrtLeadOppCopilot"
+                     },
+                     {
+                         "UId":  "a098811e-2305-05ca-3ad1-39a8207d0f15",
+                         "Name":  "CrtMarketingInC360"
+                     },
+                     {
+                         "UId":  "18d4e293-1508-ee22-1264-b7e100276cf6",
+                         "Name":  "CrtMLOpportunityScoring"
+                     },
+                     {
+                         "UId":  "5c011712-49c2-b1cc-c9da-8751f2879b1d",
+                         "Name":  "CrtOpportunity"
+                     },
+                     {
+                         "UId":  "f28e980a-5ca2-9f01-540e-2c3d0f72984c",
+                         "Name":  "CrtOpportunityManagement"
+                     },
+                     {
+                         "UId":  "650ba69a-f061-ae66-b69b-aa0708ee0631",
+                         "Name":  "CrtProductBase"
+                     },
+                     {
+                         "UId":  "5da6331b-85eb-139e-4cc8-37cf67b03b0f",
+                         "Name":  "CrtRecommendedProduct"
+                     },
+                     {
+                         "UId":  "d3278267-b63d-4946-7734-d89aaa6e99d3",
+                         "Name":  "CrtSimilarLead"
+                     },
+                     {
+                         "UId":  "8ab6216e-2ead-415c-ced0-646049cca295",
+                         "Name":  "CrtTouchPoint"
+                     },
+                     {
+                         "UId":  "3c5755e6-19fe-aa4b-2b66-f042137159f0",
+                         "Name":  "CrtTouchPointInC360"
+                     },
+                     {
+                         "UId":  "0a3cf440-a7af-a37f-98e9-e16f919f572e",
+                         "Name":  "CrtTouchPointInLead"
+                     },
+                     {
+                         "UId":  "e01946ab-f1ea-1571-5211-d6f48e66b35d",
+                         "Name":  "CrtContactToLeadInC360"
+                     },
+                     {
+                         "UId":  "47ae1ea6-e608-a3fd-44ac-18726f40438c",
+                         "Name":  "CrtMLLeadConversion"
+                     },
+                     {
+                         "UId":  "c23745e0-6733-1fc6-1dd7-ca9898fc0ed6",
+                         "Name":  "CrtMLLeadScoring"
+                     },
+                     {
+                         "UId":  "52630158-3e5b-2e48-e55c-cf78a2439812",
+                         "Name":  "CrtSalesInC360"
+                     },
+                     {
+                         "UId":  "df07531c-770a-d4c0-4b8f-d97659a810f6",
+                         "Name":  "CrtOpportunityInC360"
+                     }
+                 ]
+}

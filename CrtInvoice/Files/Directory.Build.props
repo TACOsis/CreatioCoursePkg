@@ -1,0 +1,14 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtInvoice/Schemas/Activity/Activity.cs" Condition="Exists('$(PkgPath)/CrtInvoice/Schemas/Activity/Activity.cs')" />
+		<Compile Include="$(PkgPath)/CrtInvoice/Schemas/Invoice/Invoice.cs" Condition="Exists('$(PkgPath)/CrtInvoice/Schemas/Invoice/Invoice.cs')" />
+		<Compile Include="$(PkgPath)/CrtInvoice/Schemas/InvoiceFile/InvoiceFile.cs" Condition="Exists('$(PkgPath)/CrtInvoice/Schemas/InvoiceFile/InvoiceFile.cs')" />
+		<Compile Include="$(PkgPath)/CrtInvoice/Schemas/InvoiceFolder/InvoiceFolder.cs" Condition="Exists('$(PkgPath)/CrtInvoice/Schemas/InvoiceFolder/InvoiceFolder.cs')" />
+		<Compile Include="$(PkgPath)/CrtInvoice/Schemas/InvoiceInFolder/InvoiceInFolder.cs" Condition="Exists('$(PkgPath)/CrtInvoice/Schemas/InvoiceInFolder/InvoiceInFolder.cs')" />
+		<Compile Include="$(PkgPath)/CrtInvoice/Schemas/InvoiceInTag/InvoiceInTag.cs" Condition="Exists('$(PkgPath)/CrtInvoice/Schemas/InvoiceInTag/InvoiceInTag.cs')" />
+		<Compile Include="$(PkgPath)/CrtInvoice/Schemas/InvoicePaymentStatus/InvoicePaymentStatus.cs" Condition="Exists('$(PkgPath)/CrtInvoice/Schemas/InvoicePaymentStatus/InvoicePaymentStatus.cs')" />
+		<Compile Include="$(PkgPath)/CrtInvoice/Schemas/InvoiceProduct/InvoiceProduct.cs" Condition="Exists('$(PkgPath)/CrtInvoice/Schemas/InvoiceProduct/InvoiceProduct.cs')" />
+		<Compile Include="$(PkgPath)/CrtInvoice/Schemas/InvoiceTag/InvoiceTag.cs" Condition="Exists('$(PkgPath)/CrtInvoice/Schemas/InvoiceTag/InvoiceTag.cs')" />
+		<Compile Include="$(PkgPath)/CrtInvoice/Schemas/InvoiceVisa/InvoiceVisa.cs" Condition="Exists('$(PkgPath)/CrtInvoice/Schemas/InvoiceVisa/InvoiceVisa.cs')" />
+	</ItemGroup>
+</Project>

@@ -1,0 +1,21 @@
+﻿.crt-page .center-panel:has(#ProductSelectionContainer) {
+	padding-bottom: 0 !important;
+}
+
+#ProductSelectionContainer:has(.container-flex-1) {
+	flex: 1;
+
+	.tab-body {
+		padding: 0;
+	}
+}
+
+.safari-product-catalog-min-height-gallery-fix {
+	crt-gallery	{
+		min-height: calc(~"100vh" - 240px) !important;
+	}
+}
+
+orderproductcatalogpage #MainContainer:has(.crt-flex) {
+	height: -webkit-fill-available;
+}

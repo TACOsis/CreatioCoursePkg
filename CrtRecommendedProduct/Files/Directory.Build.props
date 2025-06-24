@@ -1,0 +1,7 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtRecommendedProduct/Schemas/NextBestOffer/NextBestOffer.cs" Condition="Exists('$(PkgPath)/CrtRecommendedProduct/Schemas/NextBestOffer/NextBestOffer.cs')" />
+		<Compile Include="$(PkgPath)/CrtRecommendedProduct/Schemas/RecommendedProduct/RecommendedProduct.cs" Condition="Exists('$(PkgPath)/CrtRecommendedProduct/Schemas/RecommendedProduct/RecommendedProduct.cs')" />
+		<Compile Include="$(PkgPath)/CrtRecommendedProduct/Schemas/RecommendProductStatus/RecommendProductStatus.cs" Condition="Exists('$(PkgPath)/CrtRecommendedProduct/Schemas/RecommendProductStatus/RecommendProductStatus.cs')" />
+	</ItemGroup>
+</Project>

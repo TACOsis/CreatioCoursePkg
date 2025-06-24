@@ -1,0 +1,20 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtProductCatalogue/Schemas/Account/Account.cs" Condition="Exists('$(PkgPath)/CrtProductCatalogue/Schemas/Account/Account.cs')" />
+		<Compile Include="$(PkgPath)/CrtProductCatalogue/Schemas/BaseProductEntry/BaseProductEntry.cs" Condition="Exists('$(PkgPath)/CrtProductCatalogue/Schemas/BaseProductEntry/BaseProductEntry.cs')" />
+		<Compile Include="$(PkgPath)/CrtProductCatalogue/Schemas/Pricelist/Pricelist.cs" Condition="Exists('$(PkgPath)/CrtProductCatalogue/Schemas/Pricelist/Pricelist.cs')" />
+		<Compile Include="$(PkgPath)/CrtProductCatalogue/Schemas/Product/Product.cs" Condition="Exists('$(PkgPath)/CrtProductCatalogue/Schemas/Product/Product.cs')" />
+		<Compile Include="$(PkgPath)/CrtProductCatalogue/Schemas/ProductCatalogueLevel/ProductCatalogueLevel.cs" Condition="Exists('$(PkgPath)/CrtProductCatalogue/Schemas/ProductCatalogueLevel/ProductCatalogueLevel.cs')" />
+		<Compile Include="$(PkgPath)/CrtProductCatalogue/Schemas/ProductCategory/ProductCategory.cs" Condition="Exists('$(PkgPath)/CrtProductCatalogue/Schemas/ProductCategory/ProductCategory.cs')" />
+		<Compile Include="$(PkgPath)/CrtProductCatalogue/Schemas/ProductFilter/ProductFilter.cs" Condition="Exists('$(PkgPath)/CrtProductCatalogue/Schemas/ProductFilter/ProductFilter.cs')" />
+		<Compile Include="$(PkgPath)/CrtProductCatalogue/Schemas/ProductFilterType/ProductFilterType.cs" Condition="Exists('$(PkgPath)/CrtProductCatalogue/Schemas/ProductFilterType/ProductFilterType.cs')" />
+		<Compile Include="$(PkgPath)/CrtProductCatalogue/Schemas/ProductPrice/ProductPrice.cs" Condition="Exists('$(PkgPath)/CrtProductCatalogue/Schemas/ProductPrice/ProductPrice.cs')" />
+		<Compile Include="$(PkgPath)/CrtProductCatalogue/Schemas/ProductStockBalance/ProductStockBalance.cs" Condition="Exists('$(PkgPath)/CrtProductCatalogue/Schemas/ProductStockBalance/ProductStockBalance.cs')" />
+		<Compile Include="$(PkgPath)/CrtProductCatalogue/Schemas/ProductType/ProductType.cs" Condition="Exists('$(PkgPath)/CrtProductCatalogue/Schemas/ProductType/ProductType.cs')" />
+		<Compile Include="$(PkgPath)/CrtProductCatalogue/Schemas/ProductUnit/ProductUnit.cs" Condition="Exists('$(PkgPath)/CrtProductCatalogue/Schemas/ProductUnit/ProductUnit.cs')" />
+		<Compile Include="$(PkgPath)/CrtProductCatalogue/Schemas/Specification/Specification.cs" Condition="Exists('$(PkgPath)/CrtProductCatalogue/Schemas/Specification/Specification.cs')" />
+		<Compile Include="$(PkgPath)/CrtProductCatalogue/Schemas/SpecificationInProduct/SpecificationInProduct.cs" Condition="Exists('$(PkgPath)/CrtProductCatalogue/Schemas/SpecificationInProduct/SpecificationInProduct.cs')" />
+		<Compile Include="$(PkgPath)/CrtProductCatalogue/Schemas/TradeMark/TradeMark.cs" Condition="Exists('$(PkgPath)/CrtProductCatalogue/Schemas/TradeMark/TradeMark.cs')" />
+		<Compile Include="$(PkgPath)/CrtProductCatalogue/Schemas/Warehouse/Warehouse.cs" Condition="Exists('$(PkgPath)/CrtProductCatalogue/Schemas/Warehouse/Warehouse.cs')" />
+	</ItemGroup>
+</Project>

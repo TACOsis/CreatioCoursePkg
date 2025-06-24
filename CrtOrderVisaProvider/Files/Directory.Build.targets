@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/CrtOrderVisaProvider/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/CrtOrderVisaProvider/Data/**" />
+		<Compile Remove="$(PkgPath)/CrtOrderVisaProvider/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/CrtOrderVisaProvider/Schemas\**" />
+		<Compile Remove="$(PkgPath)/CrtOrderVisaProvider/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtOrderVisaProvider/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtOrderVisaProvider/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtOrderVisaProvider/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtOrderVisaProvider/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtOrderVisaProvider/Resources/**" />
+		<None Remove="$(PkgPath)/CrtOrderVisaProvider/Assemblies/**" />
+		<None Remove="$(PkgPath)/CrtOrderVisaProvider/Data/**" />
+		<None Remove="$(PkgPath)/CrtOrderVisaProvider/SqlScripts/**" />
+		<None Remove="$(PkgPath)/CrtOrderVisaProvider/Schemas/**" />
+		<None Remove="$(PkgPath)/CrtOrderVisaProvider/Resources/**" />
+  </ItemGroup>
+</Project>

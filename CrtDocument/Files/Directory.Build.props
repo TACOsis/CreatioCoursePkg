@@ -1,0 +1,16 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtDocument/Schemas/Activity/Activity.cs" Condition="Exists('$(PkgPath)/CrtDocument/Schemas/Activity/Activity.cs')" />
+		<Compile Include="$(PkgPath)/CrtDocument/Schemas/Document/Document.cs" Condition="Exists('$(PkgPath)/CrtDocument/Schemas/Document/Document.cs')" />
+		<Compile Include="$(PkgPath)/CrtDocument/Schemas/DocumentFile/DocumentFile.cs" Condition="Exists('$(PkgPath)/CrtDocument/Schemas/DocumentFile/DocumentFile.cs')" />
+		<Compile Include="$(PkgPath)/CrtDocument/Schemas/DocumentFolder/DocumentFolder.cs" Condition="Exists('$(PkgPath)/CrtDocument/Schemas/DocumentFolder/DocumentFolder.cs')" />
+		<Compile Include="$(PkgPath)/CrtDocument/Schemas/DocumentInFolder/DocumentInFolder.cs" Condition="Exists('$(PkgPath)/CrtDocument/Schemas/DocumentInFolder/DocumentInFolder.cs')" />
+		<Compile Include="$(PkgPath)/CrtDocument/Schemas/DocumentInTag/DocumentInTag.cs" Condition="Exists('$(PkgPath)/CrtDocument/Schemas/DocumentInTag/DocumentInTag.cs')" />
+		<Compile Include="$(PkgPath)/CrtDocument/Schemas/DocumentParticipant/DocumentParticipant.cs" Condition="Exists('$(PkgPath)/CrtDocument/Schemas/DocumentParticipant/DocumentParticipant.cs')" />
+		<Compile Include="$(PkgPath)/CrtDocument/Schemas/DocumentProduct/DocumentProduct.cs" Condition="Exists('$(PkgPath)/CrtDocument/Schemas/DocumentProduct/DocumentProduct.cs')" />
+		<Compile Include="$(PkgPath)/CrtDocument/Schemas/DocumentRelationship/DocumentRelationship.cs" Condition="Exists('$(PkgPath)/CrtDocument/Schemas/DocumentRelationship/DocumentRelationship.cs')" />
+		<Compile Include="$(PkgPath)/CrtDocument/Schemas/DocumentState/DocumentState.cs" Condition="Exists('$(PkgPath)/CrtDocument/Schemas/DocumentState/DocumentState.cs')" />
+		<Compile Include="$(PkgPath)/CrtDocument/Schemas/DocumentTag/DocumentTag.cs" Condition="Exists('$(PkgPath)/CrtDocument/Schemas/DocumentTag/DocumentTag.cs')" />
+		<Compile Include="$(PkgPath)/CrtDocument/Schemas/DocumentType/DocumentType.cs" Condition="Exists('$(PkgPath)/CrtDocument/Schemas/DocumentType/DocumentType.cs')" />
+	</ItemGroup>
+</Project>

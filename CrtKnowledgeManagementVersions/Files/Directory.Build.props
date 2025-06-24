@@ -1,0 +1,7 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtKnowledgeManagementVersions/Schemas/Activity/Activity.cs" Condition="Exists('$(PkgPath)/CrtKnowledgeManagementVersions/Schemas/Activity/Activity.cs')" />
+		<Compile Include="$(PkgPath)/CrtKnowledgeManagementVersions/Schemas/ArticlePublicationStatus/ArticlePublicationStatus.cs" Condition="Exists('$(PkgPath)/CrtKnowledgeManagementVersions/Schemas/ArticlePublicationStatus/ArticlePublicationStatus.cs')" />
+		<Compile Include="$(PkgPath)/CrtKnowledgeManagementVersions/Schemas/KnowledgeBase/KnowledgeBase.cs" Condition="Exists('$(PkgPath)/CrtKnowledgeManagementVersions/Schemas/KnowledgeBase/KnowledgeBase.cs')" />
+	</ItemGroup>
+</Project>

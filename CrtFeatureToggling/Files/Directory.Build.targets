@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/CrtFeatureToggling/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/CrtFeatureToggling/Data/**" />
+		<Compile Remove="$(PkgPath)/CrtFeatureToggling/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/CrtFeatureToggling/Schemas\**" />
+		<Compile Remove="$(PkgPath)/CrtFeatureToggling/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtFeatureToggling/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtFeatureToggling/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtFeatureToggling/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtFeatureToggling/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtFeatureToggling/Resources/**" />
+		<None Remove="$(PkgPath)/CrtFeatureToggling/Assemblies/**" />
+		<None Remove="$(PkgPath)/CrtFeatureToggling/Data/**" />
+		<None Remove="$(PkgPath)/CrtFeatureToggling/SqlScripts/**" />
+		<None Remove="$(PkgPath)/CrtFeatureToggling/Schemas/**" />
+		<None Remove="$(PkgPath)/CrtFeatureToggling/Resources/**" />
+  </ItemGroup>
+</Project>

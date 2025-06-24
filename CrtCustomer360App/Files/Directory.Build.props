@@ -1,0 +1,14 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtCustomer360App/Schemas/Account/Account.cs" Condition="Exists('$(PkgPath)/CrtCustomer360App/Schemas/Account/Account.cs')" />
+		<Compile Include="$(PkgPath)/CrtCustomer360App/Schemas/AccountAddress/AccountAddress.cs" Condition="Exists('$(PkgPath)/CrtCustomer360App/Schemas/AccountAddress/AccountAddress.cs')" />
+		<Compile Include="$(PkgPath)/CrtCustomer360App/Schemas/AccountBillingInfo/AccountBillingInfo.cs" Condition="Exists('$(PkgPath)/CrtCustomer360App/Schemas/AccountBillingInfo/AccountBillingInfo.cs')" />
+		<Compile Include="$(PkgPath)/CrtCustomer360App/Schemas/AccountCategory/AccountCategory.cs" Condition="Exists('$(PkgPath)/CrtCustomer360App/Schemas/AccountCategory/AccountCategory.cs')" />
+		<Compile Include="$(PkgPath)/CrtCustomer360App/Schemas/AccountType/AccountType.cs" Condition="Exists('$(PkgPath)/CrtCustomer360App/Schemas/AccountType/AccountType.cs')" />
+		<Compile Include="$(PkgPath)/CrtCustomer360App/Schemas/AddressType/AddressType.cs" Condition="Exists('$(PkgPath)/CrtCustomer360App/Schemas/AddressType/AddressType.cs')" />
+		<Compile Include="$(PkgPath)/CrtCustomer360App/Schemas/BaseAddress/BaseAddress.cs" Condition="Exists('$(PkgPath)/CrtCustomer360App/Schemas/BaseAddress/BaseAddress.cs')" />
+		<Compile Include="$(PkgPath)/CrtCustomer360App/Schemas/Contact/Contact.cs" Condition="Exists('$(PkgPath)/CrtCustomer360App/Schemas/Contact/Contact.cs')" />
+		<Compile Include="$(PkgPath)/CrtCustomer360App/Schemas/ContactAddress/ContactAddress.cs" Condition="Exists('$(PkgPath)/CrtCustomer360App/Schemas/ContactAddress/ContactAddress.cs')" />
+		<Compile Include="$(PkgPath)/CrtCustomer360App/Schemas/ContactType/ContactType.cs" Condition="Exists('$(PkgPath)/CrtCustomer360App/Schemas/ContactType/ContactType.cs')" />
+	</ItemGroup>
+</Project>

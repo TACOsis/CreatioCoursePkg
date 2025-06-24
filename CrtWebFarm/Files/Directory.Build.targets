@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/CrtWebFarm/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/CrtWebFarm/Data/**" />
+		<Compile Remove="$(PkgPath)/CrtWebFarm/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/CrtWebFarm/Schemas\**" />
+		<Compile Remove="$(PkgPath)/CrtWebFarm/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtWebFarm/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtWebFarm/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtWebFarm/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtWebFarm/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtWebFarm/Resources/**" />
+		<None Remove="$(PkgPath)/CrtWebFarm/Assemblies/**" />
+		<None Remove="$(PkgPath)/CrtWebFarm/Data/**" />
+		<None Remove="$(PkgPath)/CrtWebFarm/SqlScripts/**" />
+		<None Remove="$(PkgPath)/CrtWebFarm/Schemas/**" />
+		<None Remove="$(PkgPath)/CrtWebFarm/Resources/**" />
+  </ItemGroup>
+</Project>

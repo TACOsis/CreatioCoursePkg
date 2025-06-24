@@ -1,0 +1,22 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtCopilot/Schemas/CopilotAction/CopilotAction.cs" Condition="Exists('$(PkgPath)/CrtCopilot/Schemas/CopilotAction/CopilotAction.cs')" />
+		<Compile Include="$(PkgPath)/CrtCopilot/Schemas/CopilotActionType/CopilotActionType.cs" Condition="Exists('$(PkgPath)/CrtCopilot/Schemas/CopilotActionType/CopilotActionType.cs')" />
+		<Compile Include="$(PkgPath)/CrtCopilot/Schemas/CopilotClientQuota/CopilotClientQuota.cs" Condition="Exists('$(PkgPath)/CrtCopilot/Schemas/CopilotClientQuota/CopilotClientQuota.cs')" />
+		<Compile Include="$(PkgPath)/CrtCopilot/Schemas/CopilotIntent/CopilotIntent.cs" Condition="Exists('$(PkgPath)/CrtCopilot/Schemas/CopilotIntent/CopilotIntent.cs')" />
+		<Compile Include="$(PkgPath)/CrtCopilot/Schemas/CopilotIntentMode/CopilotIntentMode.cs" Condition="Exists('$(PkgPath)/CrtCopilot/Schemas/CopilotIntentMode/CopilotIntentMode.cs')" />
+		<Compile Include="$(PkgPath)/CrtCopilot/Schemas/CopilotIntentPageQuickLinks/CopilotIntentPageQuickLinks.cs" Condition="Exists('$(PkgPath)/CrtCopilot/Schemas/CopilotIntentPageQuickLinks/CopilotIntentPageQuickLinks.cs')" />
+		<Compile Include="$(PkgPath)/CrtCopilot/Schemas/CopilotIntentParameter/CopilotIntentParameter.cs" Condition="Exists('$(PkgPath)/CrtCopilot/Schemas/CopilotIntentParameter/CopilotIntentParameter.cs')" />
+		<Compile Include="$(PkgPath)/CrtCopilot/Schemas/CopilotIntentStatus/CopilotIntentStatus.cs" Condition="Exists('$(PkgPath)/CrtCopilot/Schemas/CopilotIntentStatus/CopilotIntentStatus.cs')" />
+		<Compile Include="$(PkgPath)/CrtCopilot/Schemas/CopilotIntentType/CopilotIntentType.cs" Condition="Exists('$(PkgPath)/CrtCopilot/Schemas/CopilotIntentType/CopilotIntentType.cs')" />
+		<Compile Include="$(PkgPath)/CrtCopilot/Schemas/CopilotMessageEnt/CopilotMessageEnt.cs" Condition="Exists('$(PkgPath)/CrtCopilot/Schemas/CopilotMessageEnt/CopilotMessageEnt.cs')" />
+		<Compile Include="$(PkgPath)/CrtCopilot/Schemas/CopilotMessageRoleEnt/CopilotMessageRoleEnt.cs" Condition="Exists('$(PkgPath)/CrtCopilot/Schemas/CopilotMessageRoleEnt/CopilotMessageRoleEnt.cs')" />
+		<Compile Include="$(PkgPath)/CrtCopilot/Schemas/CopilotPrompt/CopilotPrompt.cs" Condition="Exists('$(PkgPath)/CrtCopilot/Schemas/CopilotPrompt/CopilotPrompt.cs')" />
+		<Compile Include="$(PkgPath)/CrtCopilot/Schemas/CopilotRequestEnt/CopilotRequestEnt.cs" Condition="Exists('$(PkgPath)/CrtCopilot/Schemas/CopilotRequestEnt/CopilotRequestEnt.cs')" />
+		<Compile Include="$(PkgPath)/CrtCopilot/Schemas/CopilotSessionEnt/CopilotSessionEnt.cs" Condition="Exists('$(PkgPath)/CrtCopilot/Schemas/CopilotSessionEnt/CopilotSessionEnt.cs')" />
+		<Compile Include="$(PkgPath)/CrtCopilot/Schemas/CopilotSessionStateEnt/CopilotSessionStateEnt.cs" Condition="Exists('$(PkgPath)/CrtCopilot/Schemas/CopilotSessionStateEnt/CopilotSessionStateEnt.cs')" />
+		<Compile Include="$(PkgPath)/CrtCopilot/Schemas/CopilotToolCallEnt/CopilotToolCallEnt.cs" Condition="Exists('$(PkgPath)/CrtCopilot/Schemas/CopilotToolCallEnt/CopilotToolCallEnt.cs')" />
+		<Compile Include="$(PkgPath)/CrtCopilot/Schemas/VwCopilotRequest/VwCopilotRequest.cs" Condition="Exists('$(PkgPath)/CrtCopilot/Schemas/VwCopilotRequest/VwCopilotRequest.cs')" />
+		<Compile Include="$(PkgPath)/CrtCopilot/Schemas/VwCopilotSessionIntent/VwCopilotSessionIntent.cs" Condition="Exists('$(PkgPath)/CrtCopilot/Schemas/VwCopilotSessionIntent/VwCopilotSessionIntent.cs')" />
+	</ItemGroup>
+</Project>

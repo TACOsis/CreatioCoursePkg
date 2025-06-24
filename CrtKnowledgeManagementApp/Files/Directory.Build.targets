@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/CrtKnowledgeManagementApp/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/CrtKnowledgeManagementApp/Data/**" />
+		<Compile Remove="$(PkgPath)/CrtKnowledgeManagementApp/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/CrtKnowledgeManagementApp/Schemas\**" />
+		<Compile Remove="$(PkgPath)/CrtKnowledgeManagementApp/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtKnowledgeManagementApp/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtKnowledgeManagementApp/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtKnowledgeManagementApp/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtKnowledgeManagementApp/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtKnowledgeManagementApp/Resources/**" />
+		<None Remove="$(PkgPath)/CrtKnowledgeManagementApp/Assemblies/**" />
+		<None Remove="$(PkgPath)/CrtKnowledgeManagementApp/Data/**" />
+		<None Remove="$(PkgPath)/CrtKnowledgeManagementApp/SqlScripts/**" />
+		<None Remove="$(PkgPath)/CrtKnowledgeManagementApp/Schemas/**" />
+		<None Remove="$(PkgPath)/CrtKnowledgeManagementApp/Resources/**" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,20 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtLead/Schemas/Activity/Activity.cs" Condition="Exists('$(PkgPath)/CrtLead/Schemas/Activity/Activity.cs')" />
+		<Compile Include="$(PkgPath)/CrtLead/Schemas/Call/Call.cs" Condition="Exists('$(PkgPath)/CrtLead/Schemas/Call/Call.cs')" />
+		<Compile Include="$(PkgPath)/CrtLead/Schemas/FileLead/FileLead.cs" Condition="Exists('$(PkgPath)/CrtLead/Schemas/FileLead/FileLead.cs')" />
+		<Compile Include="$(PkgPath)/CrtLead/Schemas/Lead/Lead.cs" Condition="Exists('$(PkgPath)/CrtLead/Schemas/Lead/Lead.cs')" />
+		<Compile Include="$(PkgPath)/CrtLead/Schemas/LeadDisqualifyReason/LeadDisqualifyReason.cs" Condition="Exists('$(PkgPath)/CrtLead/Schemas/LeadDisqualifyReason/LeadDisqualifyReason.cs')" />
+		<Compile Include="$(PkgPath)/CrtLead/Schemas/LeadFolder/LeadFolder.cs" Condition="Exists('$(PkgPath)/CrtLead/Schemas/LeadFolder/LeadFolder.cs')" />
+		<Compile Include="$(PkgPath)/CrtLead/Schemas/LeadInFolder/LeadInFolder.cs" Condition="Exists('$(PkgPath)/CrtLead/Schemas/LeadInFolder/LeadInFolder.cs')" />
+		<Compile Include="$(PkgPath)/CrtLead/Schemas/LeadInQualifyStatus/LeadInQualifyStatus.cs" Condition="Exists('$(PkgPath)/CrtLead/Schemas/LeadInQualifyStatus/LeadInQualifyStatus.cs')" />
+		<Compile Include="$(PkgPath)/CrtLead/Schemas/LeadInTag/LeadInTag.cs" Condition="Exists('$(PkgPath)/CrtLead/Schemas/LeadInTag/LeadInTag.cs')" />
+		<Compile Include="$(PkgPath)/CrtLead/Schemas/LeadProduct/LeadProduct.cs" Condition="Exists('$(PkgPath)/CrtLead/Schemas/LeadProduct/LeadProduct.cs')" />
+		<Compile Include="$(PkgPath)/CrtLead/Schemas/LeadRegisterMethod/LeadRegisterMethod.cs" Condition="Exists('$(PkgPath)/CrtLead/Schemas/LeadRegisterMethod/LeadRegisterMethod.cs')" />
+		<Compile Include="$(PkgPath)/CrtLead/Schemas/LeadStatus/LeadStatus.cs" Condition="Exists('$(PkgPath)/CrtLead/Schemas/LeadStatus/LeadStatus.cs')" />
+		<Compile Include="$(PkgPath)/CrtLead/Schemas/LeadTag/LeadTag.cs" Condition="Exists('$(PkgPath)/CrtLead/Schemas/LeadTag/LeadTag.cs')" />
+		<Compile Include="$(PkgPath)/CrtLead/Schemas/LeadTypeDetails/LeadTypeDetails.cs" Condition="Exists('$(PkgPath)/CrtLead/Schemas/LeadTypeDetails/LeadTypeDetails.cs')" />
+		<Compile Include="$(PkgPath)/CrtLead/Schemas/OpportunityDepartment/OpportunityDepartment.cs" Condition="Exists('$(PkgPath)/CrtLead/Schemas/OpportunityDepartment/OpportunityDepartment.cs')" />
+		<Compile Include="$(PkgPath)/CrtLead/Schemas/QualifyStatus/QualifyStatus.cs" Condition="Exists('$(PkgPath)/CrtLead/Schemas/QualifyStatus/QualifyStatus.cs')" />
+	</ItemGroup>
+</Project>

@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/CrtOCMInLeadOppMgmt/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/CrtOCMInLeadOppMgmt/Data/**" />
+		<Compile Remove="$(PkgPath)/CrtOCMInLeadOppMgmt/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/CrtOCMInLeadOppMgmt/Schemas\**" />
+		<Compile Remove="$(PkgPath)/CrtOCMInLeadOppMgmt/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtOCMInLeadOppMgmt/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtOCMInLeadOppMgmt/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtOCMInLeadOppMgmt/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtOCMInLeadOppMgmt/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtOCMInLeadOppMgmt/Resources/**" />
+		<None Remove="$(PkgPath)/CrtOCMInLeadOppMgmt/Assemblies/**" />
+		<None Remove="$(PkgPath)/CrtOCMInLeadOppMgmt/Data/**" />
+		<None Remove="$(PkgPath)/CrtOCMInLeadOppMgmt/SqlScripts/**" />
+		<None Remove="$(PkgPath)/CrtOCMInLeadOppMgmt/Schemas/**" />
+		<None Remove="$(PkgPath)/CrtOCMInLeadOppMgmt/Resources/**" />
+  </ItemGroup>
+</Project>

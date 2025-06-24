@@ -1,0 +1,18 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/SsoSettings/Schemas/SamlIdpCertificate/SamlIdpCertificate.cs" Condition="Exists('$(PkgPath)/SsoSettings/Schemas/SamlIdpCertificate/SamlIdpCertificate.cs')" />
+		<Compile Include="$(PkgPath)/SsoSettings/Schemas/SamlIdpCertificateView/SamlIdpCertificateView.cs" Condition="Exists('$(PkgPath)/SsoSettings/Schemas/SamlIdpCertificateView/SamlIdpCertificateView.cs')" />
+		<Compile Include="$(PkgPath)/SsoSettings/Schemas/SsoBaseSettings/SsoBaseSettings.cs" Condition="Exists('$(PkgPath)/SsoSettings/Schemas/SsoBaseSettings/SsoBaseSettings.cs')" />
+		<Compile Include="$(PkgPath)/SsoSettings/Schemas/SsoIdentityProvider/SsoIdentityProvider.cs" Condition="Exists('$(PkgPath)/SsoSettings/Schemas/SsoIdentityProvider/SsoIdentityProvider.cs')" />
+		<Compile Include="$(PkgPath)/SsoSettings/Schemas/SsoIdentityType/SsoIdentityType.cs" Condition="Exists('$(PkgPath)/SsoSettings/Schemas/SsoIdentityType/SsoIdentityType.cs')" />
+		<Compile Include="$(PkgPath)/SsoSettings/Schemas/SsoOpenIdProvider/SsoOpenIdProvider.cs" Condition="Exists('$(PkgPath)/SsoSettings/Schemas/SsoOpenIdProvider/SsoOpenIdProvider.cs')" />
+		<Compile Include="$(PkgPath)/SsoSettings/Schemas/SsoOpenIdSettings/SsoOpenIdSettings.cs" Condition="Exists('$(PkgPath)/SsoSettings/Schemas/SsoOpenIdSettings/SsoOpenIdSettings.cs')" />
+		<Compile Include="$(PkgPath)/SsoSettings/Schemas/SsoProvider/SsoProvider.cs" Condition="Exists('$(PkgPath)/SsoSettings/Schemas/SsoProvider/SsoProvider.cs')" />
+		<Compile Include="$(PkgPath)/SsoSettings/Schemas/SsoProviderType/SsoProviderType.cs" Condition="Exists('$(PkgPath)/SsoSettings/Schemas/SsoProviderType/SsoProviderType.cs')" />
+		<Compile Include="$(PkgPath)/SsoSettings/Schemas/SsoSamlProvider/SsoSamlProvider.cs" Condition="Exists('$(PkgPath)/SsoSettings/Schemas/SsoSamlProvider/SsoSamlProvider.cs')" />
+		<Compile Include="$(PkgPath)/SsoSettings/Schemas/SsoSamlSettings/SsoSamlSettings.cs" Condition="Exists('$(PkgPath)/SsoSettings/Schemas/SsoSamlSettings/SsoSamlSettings.cs')" />
+		<Compile Include="$(PkgPath)/SsoSettings/Schemas/SsoServiceProvider/SsoServiceProvider.cs" Condition="Exists('$(PkgPath)/SsoSettings/Schemas/SsoServiceProvider/SsoServiceProvider.cs')" />
+		<Compile Include="$(PkgPath)/SsoSettings/Schemas/SsoSettingsTemplate/SsoSettingsTemplate.cs" Condition="Exists('$(PkgPath)/SsoSettings/Schemas/SsoSettingsTemplate/SsoSettingsTemplate.cs')" />
+		<Compile Include="$(PkgPath)/SsoSettings/Schemas/SsoUserType/SsoUserType.cs" Condition="Exists('$(PkgPath)/SsoSettings/Schemas/SsoUserType/SsoUserType.cs')" />
+	</ItemGroup>
+</Project>

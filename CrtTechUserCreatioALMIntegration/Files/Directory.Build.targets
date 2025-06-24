@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/CrtTechUserCreatioALMIntegration/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/CrtTechUserCreatioALMIntegration/Data/**" />
+		<Compile Remove="$(PkgPath)/CrtTechUserCreatioALMIntegration/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/CrtTechUserCreatioALMIntegration/Schemas\**" />
+		<Compile Remove="$(PkgPath)/CrtTechUserCreatioALMIntegration/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtTechUserCreatioALMIntegration/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtTechUserCreatioALMIntegration/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtTechUserCreatioALMIntegration/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtTechUserCreatioALMIntegration/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtTechUserCreatioALMIntegration/Resources/**" />
+		<None Remove="$(PkgPath)/CrtTechUserCreatioALMIntegration/Assemblies/**" />
+		<None Remove="$(PkgPath)/CrtTechUserCreatioALMIntegration/Data/**" />
+		<None Remove="$(PkgPath)/CrtTechUserCreatioALMIntegration/SqlScripts/**" />
+		<None Remove="$(PkgPath)/CrtTechUserCreatioALMIntegration/Schemas/**" />
+		<None Remove="$(PkgPath)/CrtTechUserCreatioALMIntegration/Resources/**" />
+  </ItemGroup>
+</Project>

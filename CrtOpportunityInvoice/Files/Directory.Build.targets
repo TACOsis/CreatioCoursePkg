@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/CrtOpportunityInvoice/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/CrtOpportunityInvoice/Data/**" />
+		<Compile Remove="$(PkgPath)/CrtOpportunityInvoice/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/CrtOpportunityInvoice/Schemas\**" />
+		<Compile Remove="$(PkgPath)/CrtOpportunityInvoice/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtOpportunityInvoice/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtOpportunityInvoice/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtOpportunityInvoice/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtOpportunityInvoice/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtOpportunityInvoice/Resources/**" />
+		<None Remove="$(PkgPath)/CrtOpportunityInvoice/Assemblies/**" />
+		<None Remove="$(PkgPath)/CrtOpportunityInvoice/Data/**" />
+		<None Remove="$(PkgPath)/CrtOpportunityInvoice/SqlScripts/**" />
+		<None Remove="$(PkgPath)/CrtOpportunityInvoice/Schemas/**" />
+		<None Remove="$(PkgPath)/CrtOpportunityInvoice/Resources/**" />
+  </ItemGroup>
+</Project>

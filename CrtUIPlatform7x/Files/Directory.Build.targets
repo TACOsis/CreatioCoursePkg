@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/CrtUIPlatform7x/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/CrtUIPlatform7x/Data/**" />
+		<Compile Remove="$(PkgPath)/CrtUIPlatform7x/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/CrtUIPlatform7x/Schemas\**" />
+		<Compile Remove="$(PkgPath)/CrtUIPlatform7x/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtUIPlatform7x/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtUIPlatform7x/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtUIPlatform7x/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtUIPlatform7x/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtUIPlatform7x/Resources/**" />
+		<None Remove="$(PkgPath)/CrtUIPlatform7x/Assemblies/**" />
+		<None Remove="$(PkgPath)/CrtUIPlatform7x/Data/**" />
+		<None Remove="$(PkgPath)/CrtUIPlatform7x/SqlScripts/**" />
+		<None Remove="$(PkgPath)/CrtUIPlatform7x/Schemas/**" />
+		<None Remove="$(PkgPath)/CrtUIPlatform7x/Resources/**" />
+  </ItemGroup>
+</Project>

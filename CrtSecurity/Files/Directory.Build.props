@@ -1,0 +1,5 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtSecurity/Schemas/SysRecoveryHashCode/SysRecoveryHashCode.cs" Condition="Exists('$(PkgPath)/CrtSecurity/Schemas/SysRecoveryHashCode/SysRecoveryHashCode.cs')" />
+	</ItemGroup>
+</Project>

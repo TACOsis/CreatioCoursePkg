@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/CrtKnowledgeManagementVersions/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/CrtKnowledgeManagementVersions/Data/**" />
+		<Compile Remove="$(PkgPath)/CrtKnowledgeManagementVersions/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/CrtKnowledgeManagementVersions/Schemas\**" />
+		<Compile Remove="$(PkgPath)/CrtKnowledgeManagementVersions/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtKnowledgeManagementVersions/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtKnowledgeManagementVersions/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtKnowledgeManagementVersions/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtKnowledgeManagementVersions/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtKnowledgeManagementVersions/Resources/**" />
+		<None Remove="$(PkgPath)/CrtKnowledgeManagementVersions/Assemblies/**" />
+		<None Remove="$(PkgPath)/CrtKnowledgeManagementVersions/Data/**" />
+		<None Remove="$(PkgPath)/CrtKnowledgeManagementVersions/SqlScripts/**" />
+		<None Remove="$(PkgPath)/CrtKnowledgeManagementVersions/Schemas/**" />
+		<None Remove="$(PkgPath)/CrtKnowledgeManagementVersions/Resources/**" />
+  </ItemGroup>
+</Project>

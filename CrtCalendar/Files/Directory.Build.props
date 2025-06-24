@@ -1,0 +1,6 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtCalendar/Schemas/Calendar/Calendar.cs" Condition="Exists('$(PkgPath)/CrtCalendar/Schemas/Calendar/Calendar.cs')" />
+		<Compile Include="$(PkgPath)/CrtCalendar/Schemas/TimeUnit/TimeUnit.cs" Condition="Exists('$(PkgPath)/CrtCalendar/Schemas/TimeUnit/TimeUnit.cs')" />
+	</ItemGroup>
+</Project>

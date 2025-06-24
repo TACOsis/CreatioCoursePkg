@@ -1,0 +1,13 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtTouchPoint/Schemas/FormSubmit/FormSubmit.cs" Condition="Exists('$(PkgPath)/CrtTouchPoint/Schemas/FormSubmit/FormSubmit.cs')" />
+		<Compile Include="$(PkgPath)/CrtTouchPoint/Schemas/LeadMedium/LeadMedium.cs" Condition="Exists('$(PkgPath)/CrtTouchPoint/Schemas/LeadMedium/LeadMedium.cs')" />
+		<Compile Include="$(PkgPath)/CrtTouchPoint/Schemas/LeadMediumCode/LeadMediumCode.cs" Condition="Exists('$(PkgPath)/CrtTouchPoint/Schemas/LeadMediumCode/LeadMediumCode.cs')" />
+		<Compile Include="$(PkgPath)/CrtTouchPoint/Schemas/LeadSource/LeadSource.cs" Condition="Exists('$(PkgPath)/CrtTouchPoint/Schemas/LeadSource/LeadSource.cs')" />
+		<Compile Include="$(PkgPath)/CrtTouchPoint/Schemas/LeadSourceCode/LeadSourceCode.cs" Condition="Exists('$(PkgPath)/CrtTouchPoint/Schemas/LeadSourceCode/LeadSourceCode.cs')" />
+		<Compile Include="$(PkgPath)/CrtTouchPoint/Schemas/LeadSourceUrl/LeadSourceUrl.cs" Condition="Exists('$(PkgPath)/CrtTouchPoint/Schemas/LeadSourceUrl/LeadSourceUrl.cs')" />
+		<Compile Include="$(PkgPath)/CrtTouchPoint/Schemas/LeadType/LeadType.cs" Condition="Exists('$(PkgPath)/CrtTouchPoint/Schemas/LeadType/LeadType.cs')" />
+		<Compile Include="$(PkgPath)/CrtTouchPoint/Schemas/LeadTypeStatus/LeadTypeStatus.cs" Condition="Exists('$(PkgPath)/CrtTouchPoint/Schemas/LeadTypeStatus/LeadTypeStatus.cs')" />
+		<Compile Include="$(PkgPath)/CrtTouchPoint/Schemas/RegisterMethod/RegisterMethod.cs" Condition="Exists('$(PkgPath)/CrtTouchPoint/Schemas/RegisterMethod/RegisterMethod.cs')" />
+	</ItemGroup>
+</Project>

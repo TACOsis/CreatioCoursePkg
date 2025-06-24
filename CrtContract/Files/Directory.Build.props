@@ -1,0 +1,15 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtContract/Schemas/Activity/Activity.cs" Condition="Exists('$(PkgPath)/CrtContract/Schemas/Activity/Activity.cs')" />
+		<Compile Include="$(PkgPath)/CrtContract/Schemas/Contract/Contract.cs" Condition="Exists('$(PkgPath)/CrtContract/Schemas/Contract/Contract.cs')" />
+		<Compile Include="$(PkgPath)/CrtContract/Schemas/ContractFile/ContractFile.cs" Condition="Exists('$(PkgPath)/CrtContract/Schemas/ContractFile/ContractFile.cs')" />
+		<Compile Include="$(PkgPath)/CrtContract/Schemas/ContractFolder/ContractFolder.cs" Condition="Exists('$(PkgPath)/CrtContract/Schemas/ContractFolder/ContractFolder.cs')" />
+		<Compile Include="$(PkgPath)/CrtContract/Schemas/ContractInFolder/ContractInFolder.cs" Condition="Exists('$(PkgPath)/CrtContract/Schemas/ContractInFolder/ContractInFolder.cs')" />
+		<Compile Include="$(PkgPath)/CrtContract/Schemas/ContractInTag/ContractInTag.cs" Condition="Exists('$(PkgPath)/CrtContract/Schemas/ContractInTag/ContractInTag.cs')" />
+		<Compile Include="$(PkgPath)/CrtContract/Schemas/ContractState/ContractState.cs" Condition="Exists('$(PkgPath)/CrtContract/Schemas/ContractState/ContractState.cs')" />
+		<Compile Include="$(PkgPath)/CrtContract/Schemas/ContractTag/ContractTag.cs" Condition="Exists('$(PkgPath)/CrtContract/Schemas/ContractTag/ContractTag.cs')" />
+		<Compile Include="$(PkgPath)/CrtContract/Schemas/ContractType/ContractType.cs" Condition="Exists('$(PkgPath)/CrtContract/Schemas/ContractType/ContractType.cs')" />
+		<Compile Include="$(PkgPath)/CrtContract/Schemas/ContractVisa/ContractVisa.cs" Condition="Exists('$(PkgPath)/CrtContract/Schemas/ContractVisa/ContractVisa.cs')" />
+		<Compile Include="$(PkgPath)/CrtContract/Schemas/ProductInContract/ProductInContract.cs" Condition="Exists('$(PkgPath)/CrtContract/Schemas/ProductInContract/ProductInContract.cs')" />
+	</ItemGroup>
+</Project>

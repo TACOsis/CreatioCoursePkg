@@ -1,0 +1,6 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtUISwitcher/Schemas/UISwitcherAdminUnitUIType/UISwitcherAdminUnitUIType.cs" Condition="Exists('$(PkgPath)/CrtUISwitcher/Schemas/UISwitcherAdminUnitUIType/UISwitcherAdminUnitUIType.cs')" />
+		<Compile Include="$(PkgPath)/CrtUISwitcher/Schemas/UIType/UIType.cs" Condition="Exists('$(PkgPath)/CrtUISwitcher/Schemas/UIType/UIType.cs')" />
+	</ItemGroup>
+</Project>

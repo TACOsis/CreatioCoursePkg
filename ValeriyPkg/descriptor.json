@@ -1,0 +1,17 @@
+﻿{
+  "Descriptor": {
+    "UId": "f483da78-55bc-50d1-0a39-f2d556fbe70a",
+    "Name": "ValeriyPkg",
+    "Type": 1,
+    "ModifiedOnUtc": "\/Date(1750794213000)\/",
+    "Maintainer": "Customer",
+    "ProjectPath": "Files/ValeriyPkg.csproj",
+    "DependsOn": [
+      {
+        "UId": "d7559847-f38e-410c-baee-6f43bbe80d42",
+        "PackageVersion": "7.8.0",
+        "Name": "SalesEnterpriseSoftkey_ENU"
+      }
+    ]
+  }
+}

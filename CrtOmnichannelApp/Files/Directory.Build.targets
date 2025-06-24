@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/CrtOmnichannelApp/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/CrtOmnichannelApp/Data/**" />
+		<Compile Remove="$(PkgPath)/CrtOmnichannelApp/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/CrtOmnichannelApp/Schemas\**" />
+		<Compile Remove="$(PkgPath)/CrtOmnichannelApp/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtOmnichannelApp/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtOmnichannelApp/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtOmnichannelApp/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtOmnichannelApp/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtOmnichannelApp/Resources/**" />
+		<None Remove="$(PkgPath)/CrtOmnichannelApp/Assemblies/**" />
+		<None Remove="$(PkgPath)/CrtOmnichannelApp/Data/**" />
+		<None Remove="$(PkgPath)/CrtOmnichannelApp/SqlScripts/**" />
+		<None Remove="$(PkgPath)/CrtOmnichannelApp/Schemas/**" />
+		<None Remove="$(PkgPath)/CrtOmnichannelApp/Resources/**" />
+  </ItemGroup>
+</Project>

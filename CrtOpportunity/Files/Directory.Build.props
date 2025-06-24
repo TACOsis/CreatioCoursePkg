@@ -1,0 +1,30 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtOpportunity/Schemas/Activity/Activity.cs" Condition="Exists('$(PkgPath)/CrtOpportunity/Schemas/Activity/Activity.cs')" />
+		<Compile Include="$(PkgPath)/CrtOpportunity/Schemas/Call/Call.cs" Condition="Exists('$(PkgPath)/CrtOpportunity/Schemas/Call/Call.cs')" />
+		<Compile Include="$(PkgPath)/CrtOpportunity/Schemas/OppContactInfluence/OppContactInfluence.cs" Condition="Exists('$(PkgPath)/CrtOpportunity/Schemas/OppContactInfluence/OppContactInfluence.cs')" />
+		<Compile Include="$(PkgPath)/CrtOpportunity/Schemas/OppContactLoyality/OppContactLoyality.cs" Condition="Exists('$(PkgPath)/CrtOpportunity/Schemas/OppContactLoyality/OppContactLoyality.cs')" />
+		<Compile Include="$(PkgPath)/CrtOpportunity/Schemas/OppContactRole/OppContactRole.cs" Condition="Exists('$(PkgPath)/CrtOpportunity/Schemas/OppContactRole/OppContactRole.cs')" />
+		<Compile Include="$(PkgPath)/CrtOpportunity/Schemas/Opportunity/Opportunity.cs" Condition="Exists('$(PkgPath)/CrtOpportunity/Schemas/Opportunity/Opportunity.cs')" />
+		<Compile Include="$(PkgPath)/CrtOpportunity/Schemas/OpportunityCategory/OpportunityCategory.cs" Condition="Exists('$(PkgPath)/CrtOpportunity/Schemas/OpportunityCategory/OpportunityCategory.cs')" />
+		<Compile Include="$(PkgPath)/CrtOpportunity/Schemas/OpportunityChannel/OpportunityChannel.cs" Condition="Exists('$(PkgPath)/CrtOpportunity/Schemas/OpportunityChannel/OpportunityChannel.cs')" />
+		<Compile Include="$(PkgPath)/CrtOpportunity/Schemas/OpportunityCloseReason/OpportunityCloseReason.cs" Condition="Exists('$(PkgPath)/CrtOpportunity/Schemas/OpportunityCloseReason/OpportunityCloseReason.cs')" />
+		<Compile Include="$(PkgPath)/CrtOpportunity/Schemas/OpportunityCompetitor/OpportunityCompetitor.cs" Condition="Exists('$(PkgPath)/CrtOpportunity/Schemas/OpportunityCompetitor/OpportunityCompetitor.cs')" />
+		<Compile Include="$(PkgPath)/CrtOpportunity/Schemas/OpportunityContact/OpportunityContact.cs" Condition="Exists('$(PkgPath)/CrtOpportunity/Schemas/OpportunityContact/OpportunityContact.cs')" />
+		<Compile Include="$(PkgPath)/CrtOpportunity/Schemas/OpportunityFile/OpportunityFile.cs" Condition="Exists('$(PkgPath)/CrtOpportunity/Schemas/OpportunityFile/OpportunityFile.cs')" />
+		<Compile Include="$(PkgPath)/CrtOpportunity/Schemas/OpportunityFolder/OpportunityFolder.cs" Condition="Exists('$(PkgPath)/CrtOpportunity/Schemas/OpportunityFolder/OpportunityFolder.cs')" />
+		<Compile Include="$(PkgPath)/CrtOpportunity/Schemas/OpportunityInFolder/OpportunityInFolder.cs" Condition="Exists('$(PkgPath)/CrtOpportunity/Schemas/OpportunityInFolder/OpportunityInFolder.cs')" />
+		<Compile Include="$(PkgPath)/CrtOpportunity/Schemas/OpportunityInStage/OpportunityInStage.cs" Condition="Exists('$(PkgPath)/CrtOpportunity/Schemas/OpportunityInStage/OpportunityInStage.cs')" />
+		<Compile Include="$(PkgPath)/CrtOpportunity/Schemas/OpportunityInTag/OpportunityInTag.cs" Condition="Exists('$(PkgPath)/CrtOpportunity/Schemas/OpportunityInTag/OpportunityInTag.cs')" />
+		<Compile Include="$(PkgPath)/CrtOpportunity/Schemas/OpportunityKeyAction/OpportunityKeyAction.cs" Condition="Exists('$(PkgPath)/CrtOpportunity/Schemas/OpportunityKeyAction/OpportunityKeyAction.cs')" />
+		<Compile Include="$(PkgPath)/CrtOpportunity/Schemas/OpportunityMood/OpportunityMood.cs" Condition="Exists('$(PkgPath)/CrtOpportunity/Schemas/OpportunityMood/OpportunityMood.cs')" />
+		<Compile Include="$(PkgPath)/CrtOpportunity/Schemas/OpportunityParticipant/OpportunityParticipant.cs" Condition="Exists('$(PkgPath)/CrtOpportunity/Schemas/OpportunityParticipant/OpportunityParticipant.cs')" />
+		<Compile Include="$(PkgPath)/CrtOpportunity/Schemas/OpportunityParticipantRole/OpportunityParticipantRole.cs" Condition="Exists('$(PkgPath)/CrtOpportunity/Schemas/OpportunityParticipantRole/OpportunityParticipantRole.cs')" />
+		<Compile Include="$(PkgPath)/CrtOpportunity/Schemas/OpportunityProductInterest/OpportunityProductInterest.cs" Condition="Exists('$(PkgPath)/CrtOpportunity/Schemas/OpportunityProductInterest/OpportunityProductInterest.cs')" />
+		<Compile Include="$(PkgPath)/CrtOpportunity/Schemas/OpportunitySource/OpportunitySource.cs" Condition="Exists('$(PkgPath)/CrtOpportunity/Schemas/OpportunitySource/OpportunitySource.cs')" />
+		<Compile Include="$(PkgPath)/CrtOpportunity/Schemas/OpportunityStage/OpportunityStage.cs" Condition="Exists('$(PkgPath)/CrtOpportunity/Schemas/OpportunityStage/OpportunityStage.cs')" />
+		<Compile Include="$(PkgPath)/CrtOpportunity/Schemas/OpportunityTag/OpportunityTag.cs" Condition="Exists('$(PkgPath)/CrtOpportunity/Schemas/OpportunityTag/OpportunityTag.cs')" />
+		<Compile Include="$(PkgPath)/CrtOpportunity/Schemas/OpportunityType/OpportunityType.cs" Condition="Exists('$(PkgPath)/CrtOpportunity/Schemas/OpportunityType/OpportunityType.cs')" />
+		<Compile Include="$(PkgPath)/CrtOpportunity/Schemas/VwOpportInStageForAnalysis/VwOpportInStageForAnalysis.cs" Condition="Exists('$(PkgPath)/CrtOpportunity/Schemas/VwOpportInStageForAnalysis/VwOpportInStageForAnalysis.cs')" />
+	</ItemGroup>
+</Project>

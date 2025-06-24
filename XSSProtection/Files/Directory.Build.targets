@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/XSSProtection/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/XSSProtection/Data/**" />
+		<Compile Remove="$(PkgPath)/XSSProtection/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/XSSProtection/Schemas\**" />
+		<Compile Remove="$(PkgPath)/XSSProtection/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/XSSProtection/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/XSSProtection/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/XSSProtection/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/XSSProtection/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/XSSProtection/Resources/**" />
+		<None Remove="$(PkgPath)/XSSProtection/Assemblies/**" />
+		<None Remove="$(PkgPath)/XSSProtection/Data/**" />
+		<None Remove="$(PkgPath)/XSSProtection/SqlScripts/**" />
+		<None Remove="$(PkgPath)/XSSProtection/Schemas/**" />
+		<None Remove="$(PkgPath)/XSSProtection/Resources/**" />
+  </ItemGroup>
+</Project>

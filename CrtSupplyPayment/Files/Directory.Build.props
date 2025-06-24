@@ -1,0 +1,13 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtSupplyPayment/Schemas/Invoice/Invoice.cs" Condition="Exists('$(PkgPath)/CrtSupplyPayment/Schemas/Invoice/Invoice.cs')" />
+		<Compile Include="$(PkgPath)/CrtSupplyPayment/Schemas/SupplyPayment/SupplyPayment.cs" Condition="Exists('$(PkgPath)/CrtSupplyPayment/Schemas/SupplyPayment/SupplyPayment.cs')" />
+		<Compile Include="$(PkgPath)/CrtSupplyPayment/Schemas/SupplyPaymentDelay/SupplyPaymentDelay.cs" Condition="Exists('$(PkgPath)/CrtSupplyPayment/Schemas/SupplyPaymentDelay/SupplyPaymentDelay.cs')" />
+		<Compile Include="$(PkgPath)/CrtSupplyPayment/Schemas/SupplyPaymentElement/SupplyPaymentElement.cs" Condition="Exists('$(PkgPath)/CrtSupplyPayment/Schemas/SupplyPaymentElement/SupplyPaymentElement.cs')" />
+		<Compile Include="$(PkgPath)/CrtSupplyPayment/Schemas/SupplyPaymentProduct/SupplyPaymentProduct.cs" Condition="Exists('$(PkgPath)/CrtSupplyPayment/Schemas/SupplyPaymentProduct/SupplyPaymentProduct.cs')" />
+		<Compile Include="$(PkgPath)/CrtSupplyPayment/Schemas/SupplyPaymentState/SupplyPaymentState.cs" Condition="Exists('$(PkgPath)/CrtSupplyPayment/Schemas/SupplyPaymentState/SupplyPaymentState.cs')" />
+		<Compile Include="$(PkgPath)/CrtSupplyPayment/Schemas/SupplyPaymentTemplate/SupplyPaymentTemplate.cs" Condition="Exists('$(PkgPath)/CrtSupplyPayment/Schemas/SupplyPaymentTemplate/SupplyPaymentTemplate.cs')" />
+		<Compile Include="$(PkgPath)/CrtSupplyPayment/Schemas/SupplyPaymentTemplateItem/SupplyPaymentTemplateItem.cs" Condition="Exists('$(PkgPath)/CrtSupplyPayment/Schemas/SupplyPaymentTemplateItem/SupplyPaymentTemplateItem.cs')" />
+		<Compile Include="$(PkgPath)/CrtSupplyPayment/Schemas/SupplyPaymentType/SupplyPaymentType.cs" Condition="Exists('$(PkgPath)/CrtSupplyPayment/Schemas/SupplyPaymentType/SupplyPaymentType.cs')" />
+	</ItemGroup>
+</Project>

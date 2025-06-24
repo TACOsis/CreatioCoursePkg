@@ -1,0 +1,1 @@
+(self.webpackChunkapp_studio_enterprise_schema_view=self.webpackChunkapp_studio_enterprise_schema_view||[]).push([[79876,57495],{79876:(a,s,e)=>{e.r(s),e.d(s,{VERSION:()=>n});var _=e(59131);const n=new _.Version("16.2.14")}}]);

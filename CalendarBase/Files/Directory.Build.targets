@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/CalendarBase/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/CalendarBase/Data/**" />
+		<Compile Remove="$(PkgPath)/CalendarBase/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/CalendarBase/Schemas\**" />
+		<Compile Remove="$(PkgPath)/CalendarBase/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CalendarBase/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CalendarBase/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CalendarBase/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CalendarBase/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CalendarBase/Resources/**" />
+		<None Remove="$(PkgPath)/CalendarBase/Assemblies/**" />
+		<None Remove="$(PkgPath)/CalendarBase/Data/**" />
+		<None Remove="$(PkgPath)/CalendarBase/SqlScripts/**" />
+		<None Remove="$(PkgPath)/CalendarBase/Schemas/**" />
+		<None Remove="$(PkgPath)/CalendarBase/Resources/**" />
+  </ItemGroup>
+</Project>

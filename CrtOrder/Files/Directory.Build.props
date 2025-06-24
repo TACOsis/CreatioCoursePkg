@@ -1,0 +1,20 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtOrder/Schemas/Activity/Activity.cs" Condition="Exists('$(PkgPath)/CrtOrder/Schemas/Activity/Activity.cs')" />
+		<Compile Include="$(PkgPath)/CrtOrder/Schemas/Call/Call.cs" Condition="Exists('$(PkgPath)/CrtOrder/Schemas/Call/Call.cs')" />
+		<Compile Include="$(PkgPath)/CrtOrder/Schemas/DeliveryType/DeliveryType.cs" Condition="Exists('$(PkgPath)/CrtOrder/Schemas/DeliveryType/DeliveryType.cs')" />
+		<Compile Include="$(PkgPath)/CrtOrder/Schemas/Order/Order.cs" Condition="Exists('$(PkgPath)/CrtOrder/Schemas/Order/Order.cs')" />
+		<Compile Include="$(PkgPath)/CrtOrder/Schemas/OrderDeliveryStatus/OrderDeliveryStatus.cs" Condition="Exists('$(PkgPath)/CrtOrder/Schemas/OrderDeliveryStatus/OrderDeliveryStatus.cs')" />
+		<Compile Include="$(PkgPath)/CrtOrder/Schemas/OrderFile/OrderFile.cs" Condition="Exists('$(PkgPath)/CrtOrder/Schemas/OrderFile/OrderFile.cs')" />
+		<Compile Include="$(PkgPath)/CrtOrder/Schemas/OrderFolder/OrderFolder.cs" Condition="Exists('$(PkgPath)/CrtOrder/Schemas/OrderFolder/OrderFolder.cs')" />
+		<Compile Include="$(PkgPath)/CrtOrder/Schemas/OrderInFolder/OrderInFolder.cs" Condition="Exists('$(PkgPath)/CrtOrder/Schemas/OrderInFolder/OrderInFolder.cs')" />
+		<Compile Include="$(PkgPath)/CrtOrder/Schemas/OrderInTag/OrderInTag.cs" Condition="Exists('$(PkgPath)/CrtOrder/Schemas/OrderInTag/OrderInTag.cs')" />
+		<Compile Include="$(PkgPath)/CrtOrder/Schemas/OrderPaymentStatus/OrderPaymentStatus.cs" Condition="Exists('$(PkgPath)/CrtOrder/Schemas/OrderPaymentStatus/OrderPaymentStatus.cs')" />
+		<Compile Include="$(PkgPath)/CrtOrder/Schemas/OrderProduct/OrderProduct.cs" Condition="Exists('$(PkgPath)/CrtOrder/Schemas/OrderProduct/OrderProduct.cs')" />
+		<Compile Include="$(PkgPath)/CrtOrder/Schemas/OrderStatus/OrderStatus.cs" Condition="Exists('$(PkgPath)/CrtOrder/Schemas/OrderStatus/OrderStatus.cs')" />
+		<Compile Include="$(PkgPath)/CrtOrder/Schemas/OrderTag/OrderTag.cs" Condition="Exists('$(PkgPath)/CrtOrder/Schemas/OrderTag/OrderTag.cs')" />
+		<Compile Include="$(PkgPath)/CrtOrder/Schemas/OrderVisa/OrderVisa.cs" Condition="Exists('$(PkgPath)/CrtOrder/Schemas/OrderVisa/OrderVisa.cs')" />
+		<Compile Include="$(PkgPath)/CrtOrder/Schemas/PaymentType/PaymentType.cs" Condition="Exists('$(PkgPath)/CrtOrder/Schemas/PaymentType/PaymentType.cs')" />
+		<Compile Include="$(PkgPath)/CrtOrder/Schemas/SourceOrder/SourceOrder.cs" Condition="Exists('$(PkgPath)/CrtOrder/Schemas/SourceOrder/SourceOrder.cs')" />
+	</ItemGroup>
+</Project>

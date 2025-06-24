@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/CrtCopilotIntentsStudio/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/CrtCopilotIntentsStudio/Data/**" />
+		<Compile Remove="$(PkgPath)/CrtCopilotIntentsStudio/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/CrtCopilotIntentsStudio/Schemas\**" />
+		<Compile Remove="$(PkgPath)/CrtCopilotIntentsStudio/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtCopilotIntentsStudio/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtCopilotIntentsStudio/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtCopilotIntentsStudio/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtCopilotIntentsStudio/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtCopilotIntentsStudio/Resources/**" />
+		<None Remove="$(PkgPath)/CrtCopilotIntentsStudio/Assemblies/**" />
+		<None Remove="$(PkgPath)/CrtCopilotIntentsStudio/Data/**" />
+		<None Remove="$(PkgPath)/CrtCopilotIntentsStudio/SqlScripts/**" />
+		<None Remove="$(PkgPath)/CrtCopilotIntentsStudio/Schemas/**" />
+		<None Remove="$(PkgPath)/CrtCopilotIntentsStudio/Resources/**" />
+  </ItemGroup>
+</Project>

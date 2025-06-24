@@ -1,0 +1,9 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtUserLevelSchema/Schemas/SysUserLevelLocalizableValue/SysUserLevelLocalizableValue.cs" Condition="Exists('$(PkgPath)/CrtUserLevelSchema/Schemas/SysUserLevelLocalizableValue/SysUserLevelLocalizableValue.cs')" />
+		<Compile Include="$(PkgPath)/CrtUserLevelSchema/Schemas/SysUserLevelSchema/SysUserLevelSchema.cs" Condition="Exists('$(PkgPath)/CrtUserLevelSchema/Schemas/SysUserLevelSchema/SysUserLevelSchema.cs')" />
+		<Compile Include="$(PkgPath)/CrtUserLevelSchema/Schemas/SysUserLevelSchemaClientSource/SysUserLevelSchemaClientSource.cs" Condition="Exists('$(PkgPath)/CrtUserLevelSchema/Schemas/SysUserLevelSchemaClientSource/SysUserLevelSchemaClientSource.cs')" />
+		<Compile Include="$(PkgPath)/CrtUserLevelSchema/Schemas/SysUserLevelSchemaContent/SysUserLevelSchemaContent.cs" Condition="Exists('$(PkgPath)/CrtUserLevelSchema/Schemas/SysUserLevelSchemaContent/SysUserLevelSchemaContent.cs')" />
+		<Compile Include="$(PkgPath)/CrtUserLevelSchema/Schemas/SysUserLevelSchemaProperty/SysUserLevelSchemaProperty.cs" Condition="Exists('$(PkgPath)/CrtUserLevelSchema/Schemas/SysUserLevelSchemaProperty/SysUserLevelSchemaProperty.cs')" />
+	</ItemGroup>
+</Project>

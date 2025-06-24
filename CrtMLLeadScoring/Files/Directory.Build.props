@@ -1,0 +1,5 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtMLLeadScoring/Schemas/Lead/Lead.cs" Condition="Exists('$(PkgPath)/CrtMLLeadScoring/Schemas/Lead/Lead.cs')" />
+	</ItemGroup>
+</Project>

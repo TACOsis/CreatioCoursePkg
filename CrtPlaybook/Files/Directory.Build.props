@@ -1,0 +1,7 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtPlaybook/Schemas/CrtPlaybook/CrtPlaybook.cs" Condition="Exists('$(PkgPath)/CrtPlaybook/Schemas/CrtPlaybook/CrtPlaybook.cs')" />
+		<Compile Include="$(PkgPath)/CrtPlaybook/Schemas/PlaybookStage/PlaybookStage.cs" Condition="Exists('$(PkgPath)/CrtPlaybook/Schemas/PlaybookStage/PlaybookStage.cs')" />
+		<Compile Include="$(PkgPath)/CrtPlaybook/Schemas/VwDcmStagedObject/VwDcmStagedObject.cs" Condition="Exists('$(PkgPath)/CrtPlaybook/Schemas/VwDcmStagedObject/VwDcmStagedObject.cs')" />
+	</ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/XSSProtection/Schemas/SysXssProtectionRule/SysXssProtectionRule.cs" Condition="Exists('$(PkgPath)/XSSProtection/Schemas/SysXssProtectionRule/SysXssProtectionRule.cs')" />
+		<Compile Include="$(PkgPath)/XSSProtection/Schemas/SysXssProtectionRuleExclusion/SysXssProtectionRuleExclusion.cs" Condition="Exists('$(PkgPath)/XSSProtection/Schemas/SysXssProtectionRuleExclusion/SysXssProtectionRuleExclusion.cs')" />
+		<Compile Include="$(PkgPath)/XSSProtection/Schemas/SysXssProtectRuleExclType/SysXssProtectRuleExclType.cs" Condition="Exists('$(PkgPath)/XSSProtection/Schemas/SysXssProtectRuleExclType/SysXssProtectRuleExclType.cs')" />
+		<Compile Include="$(PkgPath)/XSSProtection/Schemas/SysXssProtectRuleType/SysXssProtectRuleType.cs" Condition="Exists('$(PkgPath)/XSSProtection/Schemas/SysXssProtectRuleType/SysXssProtectRuleType.cs')" />
+		<Compile Include="$(PkgPath)/XSSProtection/Schemas/SysXssProtectRuleViolation/SysXssProtectRuleViolation.cs" Condition="Exists('$(PkgPath)/XSSProtection/Schemas/SysXssProtectRuleViolation/SysXssProtectRuleViolation.cs')" />
+		<Compile Include="$(PkgPath)/XSSProtection/Schemas/XssProtectionMode/XssProtectionMode.cs" Condition="Exists('$(PkgPath)/XSSProtection/Schemas/XssProtectionMode/XssProtectionMode.cs')" />
+	</ItemGroup>
+</Project>

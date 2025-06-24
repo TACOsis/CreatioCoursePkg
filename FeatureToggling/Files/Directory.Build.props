@@ -1,0 +1,6 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/FeatureToggling/Schemas/AppFeature/AppFeature.cs" Condition="Exists('$(PkgPath)/FeatureToggling/Schemas/AppFeature/AppFeature.cs')" />
+		<Compile Include="$(PkgPath)/FeatureToggling/Schemas/AppFeatureState/AppFeatureState.cs" Condition="Exists('$(PkgPath)/FeatureToggling/Schemas/AppFeatureState/AppFeatureState.cs')" />
+	</ItemGroup>
+</Project>

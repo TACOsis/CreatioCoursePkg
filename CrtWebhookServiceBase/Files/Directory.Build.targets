@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/CrtWebhookServiceBase/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/CrtWebhookServiceBase/Data/**" />
+		<Compile Remove="$(PkgPath)/CrtWebhookServiceBase/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/CrtWebhookServiceBase/Schemas\**" />
+		<Compile Remove="$(PkgPath)/CrtWebhookServiceBase/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtWebhookServiceBase/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtWebhookServiceBase/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtWebhookServiceBase/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtWebhookServiceBase/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtWebhookServiceBase/Resources/**" />
+		<None Remove="$(PkgPath)/CrtWebhookServiceBase/Assemblies/**" />
+		<None Remove="$(PkgPath)/CrtWebhookServiceBase/Data/**" />
+		<None Remove="$(PkgPath)/CrtWebhookServiceBase/SqlScripts/**" />
+		<None Remove="$(PkgPath)/CrtWebhookServiceBase/Schemas/**" />
+		<None Remove="$(PkgPath)/CrtWebhookServiceBase/Resources/**" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,36 @@
+﻿{
+    "Name":  "Knowledge Management",
+    "Description":  "",
+    "Maintainer":  "Creatio",
+    "Icon":  "PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIwLjg1MzEgNi43NDc3NEMxOS41NTcxIDcuMTM5NzEgMTguNDcxMSA3LjczNDQgMTcuMzQ4NiA4LjM4Njc1QzE3LjE1NDEgOC40OTk4IDE3LjAzNzMgOC42OTMyNCAxNy4wMzczIDguOTAwNDJWMjUuMzQ4NkMxNy4wMzczIDI1LjkwNDQgMTcuODE4OCAyNi4xOTA0IDE4LjMxMSAyNS44NDk5QzE5LjIwODggMjUuMjI4OSAyMC4xODU5IDI0Ljc4OTkgMjEuNDE3NSAyNC40Njc5QzIzLjI1NDMgMjMuOTg3NyAyNS4xNDI1IDIzLjgxNSAyNi4yODUgMjMuNzU2MUMyNy4yNDc5IDIzLjcwNjUgMjggMjMuMDAxMSAyOCAyMi4xNDc3VjcuNjE3ODVDMjggNi43NzQ1NSAyNy4yNjcxIDYuMDc2NTggMjYuMzIzNCA2LjAwOTQzQzI2LjMwNDYgNi4wMDgwOSAyNi4yODU3IDYuMDA3MDEgMjYuMjY2NyA2LjAwNjE3TDI2LjI2MDIgNi4wMDU5TDI2LjI0ODcgNi4wMDU0NUwyNi4yMTU4IDYuMDA0MzJDMjYuMTg5NyA2LjAwMzQ5IDI2LjE1NTEgNi4wMDI1NyAyNi4xMTI1IDYuMDAxNzlDMjYuMDgyOSA2LjAwMTI1IDI2LjA0OTYgNi4wMDA3OCAyNi4wMTI1IDYuMDAwNDVDMjUuOTQyNiA1Ljk5OTg0IDI1Ljg1OTUgNS45OTk3NiAyNS43NjQ0IDYuMDAwNzZDMjUuNDczNyA2LjAwMzggMjUuMDY3OSA2LjAxNjkyIDI0LjU3ODkgNi4wNTYxNUMyMy42MDcgNi4xMzQxNSAyMi4yNzQ0IDYuMzE3OSAyMC44NTMxIDYuNzQ3NzRaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMTMuNjkyNCAyNS44NTM1QzE0LjE4NDcgMjYuMTkzNCAxNC45NjU3IDI1LjkwNzEgMTQuOTY1NyAyNS4zNTE2VjguOTAyMDRDMTQuOTY1NyA4LjY5NDY2IDE0Ljg0ODYgOC41MDEwNyAxNC42NTM4IDguMzg4MDJDMTMuNTMwMyA3LjczNTg4IDEyLjQ0NDYgNy4xMzk5OCAxMS4xNDc1IDYuNzQ3NzNDOS43MjYxNiA2LjMxNzg5IDguMzkzMzUgNi4xMzQxNSA3LjQyMTI5IDYuMDU2MTVDNi45MzIyOSA2LjAxNjkxIDYuNTI2NCA2LjAwMzggNi4yMzU2OCA2LjAwMDc2QzYuMTI2NDUgNS45OTk2MSA2LjAzMzEgNS45OTk4OSA1Ljk1NzMyIDYuMDAwNzZDNS45MzIxIDYuMDAxMDUgNS45MDg4MyA2LjAwMTQgNS44ODc1NiA2LjAwMTc5QzUuODQ0OTUgNi4wMDI1NyA1LjgxMDMyIDYuMDAzNDkgNS43ODQxOCA2LjAwNDMyTDUuNzUxMzUgNi4wMDU0NUw1LjczOTggNi4wMDU5TDUuNzM1MjcgNi4wMDYwOUw1LjczMTU2IDYuMDA2MjVDNS43MDM3MiA2LjAwNzQ3IDUuNjc2MDUgNi4wMDkyNCA1LjY0ODU3IDYuMDExNTVDNC43MTg1NyA2LjA4OTYzIDQgNi43ODE3MiA0IDcuNjE2M1YyMi4xNDc5QzQgMjIuOTk5OSA0Ljc0OTc3IDIzLjcwNDYgNS43MTA5MSAyMy43NTU5QzYuODU1MyAyMy44MTcxIDguNzQ0OTkgMjMuOTkxNiAxMC41ODMyIDI0LjQ3MjRDMTEuODE0NiAyNC43OTQ1IDEyLjc5MzIgMjUuMjMzIDEzLjY5MjQgMjUuODUzNVoiIGZpbGw9IndoaXRlIi8+Cjwvc3ZnPgo=",
+    "IconName":  "knowledge-management-icon.svg",
+    "Color":  "#22ac14",
+    "Version":  "1.10.1",
+    "MarketplaceLink":  "",
+    "HelpLink":  "",
+    "OrderLink":  "",
+    "SupportEmail":  "",
+    "Code":  "CrtKnowledgeManagementApp",
+    "Packages":  [
+                     {
+                         "UId":  "408fe390-2c3e-4702-5703-80e181a174b3",
+                         "Name":  "CrtKnowledgeManagementApp"
+                     },
+                     {
+                         "UId":  "c0327d1c-c1aa-0c55-2170-d40f979d9011",
+                         "Name":  "CrtKnowledgeManagementInCaseManagement"
+                     },
+                     {
+                         "UId":  "215cedf9-0bfd-639a-9f7f-1b1340000f4a",
+                         "Name":  "CrtKnowledgeManagementObject"
+                     },
+                     {
+                         "UId":  "934551d2-2e0b-1dea-b0c7-962ccd94a422",
+                         "Name":  "CrtKnowledgeManagementVersions"
+                     },
+                     {
+                         "UId":  "23bf62a7-f480-80cd-7ed4-0284df677bd5",
+                         "Name":  "CrtPlaybook"
+                     }
+                 ]
+}

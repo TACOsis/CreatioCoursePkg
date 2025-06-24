@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/ValeriyPkg/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/ValeriyPkg/Data/**" />
+		<Compile Remove="$(PkgPath)/ValeriyPkg/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/ValeriyPkg/Schemas\**" />
+		<Compile Remove="$(PkgPath)/ValeriyPkg/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/ValeriyPkg/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/ValeriyPkg/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/ValeriyPkg/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/ValeriyPkg/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/ValeriyPkg/Resources/**" />
+		<None Remove="$(PkgPath)/ValeriyPkg/Assemblies/**" />
+		<None Remove="$(PkgPath)/ValeriyPkg/Data/**" />
+		<None Remove="$(PkgPath)/ValeriyPkg/SqlScripts/**" />
+		<None Remove="$(PkgPath)/ValeriyPkg/Schemas/**" />
+		<None Remove="$(PkgPath)/ValeriyPkg/Resources/**" />
+  </ItemGroup>
+</Project>

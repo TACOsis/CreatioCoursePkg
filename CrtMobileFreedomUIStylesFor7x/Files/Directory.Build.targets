@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/CrtMobileFreedomUIStylesFor7x/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/CrtMobileFreedomUIStylesFor7x/Data/**" />
+		<Compile Remove="$(PkgPath)/CrtMobileFreedomUIStylesFor7x/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/CrtMobileFreedomUIStylesFor7x/Schemas\**" />
+		<Compile Remove="$(PkgPath)/CrtMobileFreedomUIStylesFor7x/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtMobileFreedomUIStylesFor7x/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtMobileFreedomUIStylesFor7x/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtMobileFreedomUIStylesFor7x/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtMobileFreedomUIStylesFor7x/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtMobileFreedomUIStylesFor7x/Resources/**" />
+		<None Remove="$(PkgPath)/CrtMobileFreedomUIStylesFor7x/Assemblies/**" />
+		<None Remove="$(PkgPath)/CrtMobileFreedomUIStylesFor7x/Data/**" />
+		<None Remove="$(PkgPath)/CrtMobileFreedomUIStylesFor7x/SqlScripts/**" />
+		<None Remove="$(PkgPath)/CrtMobileFreedomUIStylesFor7x/Schemas/**" />
+		<None Remove="$(PkgPath)/CrtMobileFreedomUIStylesFor7x/Resources/**" />
+  </ItemGroup>
+</Project>

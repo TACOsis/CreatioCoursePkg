@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/CrtMLOpportunityScoring/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/CrtMLOpportunityScoring/Data/**" />
+		<Compile Remove="$(PkgPath)/CrtMLOpportunityScoring/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/CrtMLOpportunityScoring/Schemas\**" />
+		<Compile Remove="$(PkgPath)/CrtMLOpportunityScoring/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtMLOpportunityScoring/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtMLOpportunityScoring/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtMLOpportunityScoring/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtMLOpportunityScoring/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtMLOpportunityScoring/Resources/**" />
+		<None Remove="$(PkgPath)/CrtMLOpportunityScoring/Assemblies/**" />
+		<None Remove="$(PkgPath)/CrtMLOpportunityScoring/Data/**" />
+		<None Remove="$(PkgPath)/CrtMLOpportunityScoring/SqlScripts/**" />
+		<None Remove="$(PkgPath)/CrtMLOpportunityScoring/Schemas/**" />
+		<None Remove="$(PkgPath)/CrtMLOpportunityScoring/Resources/**" />
+  </ItemGroup>
+</Project>

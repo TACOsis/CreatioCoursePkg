@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/CrtCustomer360AI/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/CrtCustomer360AI/Data/**" />
+		<Compile Remove="$(PkgPath)/CrtCustomer360AI/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/CrtCustomer360AI/Schemas\**" />
+		<Compile Remove="$(PkgPath)/CrtCustomer360AI/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtCustomer360AI/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtCustomer360AI/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtCustomer360AI/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtCustomer360AI/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtCustomer360AI/Resources/**" />
+		<None Remove="$(PkgPath)/CrtCustomer360AI/Assemblies/**" />
+		<None Remove="$(PkgPath)/CrtCustomer360AI/Data/**" />
+		<None Remove="$(PkgPath)/CrtCustomer360AI/SqlScripts/**" />
+		<None Remove="$(PkgPath)/CrtCustomer360AI/Schemas/**" />
+		<None Remove="$(PkgPath)/CrtCustomer360AI/Resources/**" />
+  </ItemGroup>
+</Project>

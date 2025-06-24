@@ -1,0 +1,36 @@
+﻿chatsettingspage #ChannelsList {
+    // TODO: Remove this styles after https://creatio.atlassian.net/browse/SD-7544 task will be done
+    crt-data-table {
+        colgroup > col:nth-child(2) {
+            width: 0px !important;
+        }
+
+        th.cdk-column-ValidationStatus {
+            width: 0px !important;
+            div { 
+                display: none; 
+            }
+        }
+
+        td.cdk-column-ValidationStatus {
+            z-index: 99;
+            left: 48px;
+            position: sticky;
+        }
+
+        td.crt-toolbar-cell-numeration > div.crt-toolbar-cell-container {
+            padding-right: 4px;
+        }
+    }
+
+    crt-data-table-crt-placeholder {
+        width: 16px !important;
+        position: absolute;
+        z-index: 100;
+        left: -20px;
+
+        div.crt-placeholder {
+            padding: 0 !important;
+        }
+    }
+}

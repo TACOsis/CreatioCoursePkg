@@ -1,0 +1,1 @@
+(self.webpackChunkapp_studio_enterprise_schema_view=self.webpackChunkapp_studio_enterprise_schema_view||[]).push([[98662],{98662:(h,t,e)=>{e.r(t),e.d(t,{TranslateHttpLoader:()=>i});class i{http;prefix;suffix;constructor(s,a="/assets/i18n/",p=".json"){this.http=s,this.prefix=a,this.suffix=p}getTranslation(s){return this.http.get(`${this.prefix}${s}${this.suffix}`)}}}}]);

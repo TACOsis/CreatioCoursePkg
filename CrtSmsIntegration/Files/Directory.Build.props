@@ -1,0 +1,5 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtSmsIntegration/Schemas/SysSmsProvider/SysSmsProvider.cs" Condition="Exists('$(PkgPath)/CrtSmsIntegration/Schemas/SysSmsProvider/SysSmsProvider.cs')" />
+	</ItemGroup>
+</Project>

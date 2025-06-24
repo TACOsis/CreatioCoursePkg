@@ -1,0 +1,132 @@
+﻿{
+    "Name":  "Order and Contract Management",
+    "Description":  "",
+    "Maintainer":  "Creatio",
+    "Icon":  "PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik02IDdDNiA1Ljg5NTQzIDYuODk1NDMgNSA4IDVIMjEuOTE2OEMyMy4wMjE0IDUgMjMuOTE2OCA1Ljg5NTQzIDIzLjkxNjggN1YxNS41SDE5LjExNDhDMTguNjE0OCAxNC41ODY0IDE1LjgwNzUgMTMuODQ2MyAxNC41IDE0LjVDMTMuMTkyNSAxNS4xNTM3IDEyLjgzNjQgMTYuOTQwNyAxMy41IDE4QzE0LjE2MzYgMTkuMDU5MyAxNSAxOS4wNzQxIDE1IDE5LjA3NDFMMTcuNSAyN0w4IDI2Ljg5ODNDNi44OTU0MyAyNi44OTgzIDYgMjYuMDAyOSA2IDI0Ljg5ODNWN1pNNy45ODk4IDguOTM3OThDNy45ODk4IDkuNDYzODMgOC40MTYwOSA5Ljg5MDEzIDguOTQxOTUgOS44OTAxM0gyMC45NzNDMjEuNDk4OCA5Ljg5MDEzIDIxLjkyNTEgOS40NjM4MyAyMS45MjUxIDguOTM3OThDMjEuOTI1MSA4LjQxMjEyIDIxLjQ5ODggNy45ODU4MyAyMC45NzMgNy45ODU4M0g4Ljk0MTk1QzguNDE2MDkgNy45ODU4MyA3Ljk4OTggOC40MTIxMiA3Ljk4OTggOC45Mzc5OFpNNy45ODk4IDEyLjYzMzZDNy45ODk4IDEzLjE1OTUgOC40MTYwOSAxMy41ODU4IDguOTQxOTUgMTMuNTg1OEgyMC45NzNDMjEuNDk4OCAxMy41ODU4IDIxLjkyNTEgMTMuMTU5NSAyMS45MjUxIDEyLjYzMzZDMjEuOTI1MSAxMi4xMDc4IDIxLjQ5ODggMTEuNjgxNSAyMC45NzMgMTEuNjgxNUg4Ljk0MTk1QzguNDE2MDkgMTEuNjgxNSA3Ljk4OTggMTIuMTA3OCA3Ljk4OTggMTIuNjMzNlpNOC45NDE5NSAxNy4yODIyQzguNDE2MDkgMTcuMjgyMiA3Ljk4OTggMTYuODU1OSA3Ljk4OTggMTYuMzNDNy45ODk4IDE1Ljg5NzYgOC4yNzgwNyAxNS41MzI1IDguNjcyOTQgMTUuNDE2NEM4Ljc1ODMxIDE1LjM5MTMgOC44NDg2NiAxNS4zNzc4IDguOTQyMTcgMTUuMzc3OEgxMS41NTQ1QzEyLjA4MDMgMTUuMzc3OCAxMi41MDY2IDE1LjgwNDEgMTIuNTA2NiAxNi4zM0MxMi41MDY2IDE2Ljc1MzIgMTIuMjMwNSAxNy4xMTIgMTEuODQ4NSAxNy4yMzU5QzExLjgzIDE3LjI0MTkgMTEuODExMiAxNy4yNDczIDExLjc5MjIgMTcuMjUyMkMxMS43MTYxIDE3LjI3MTggMTEuNjM2NCAxNy4yODIyIDExLjU1NDIgMTcuMjgyMkg4Ljk0MTk1Wk04Ljk0MjE3IDIwLjk3ODRDOC40MTYzMSAyMC45Nzg0IDcuOTkwMDIgMjAuNTUyMSA3Ljk5MDAyIDIwLjAyNjNDNy45OTAwMiAxOS41MDA0IDguNDE2MzEgMTkuMDc0MSA4Ljk0MjE3IDE5LjA3NDFIMTEuNTU0NUMxMi4wODAzIDE5LjA3NDEgMTIuNTA2NiAxOS41MDA0IDEyLjUwNjYgMjAuMDI2M0MxMi41MDY2IDIwLjU1MjEgMTIuMDgwMyAyMC45Nzg0IDExLjU1NDUgMjAuOTc4NEg4Ljk0MjE3WiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTI2LjQ0NjIgMjlDMjYuOTE0IDI5IDI3LjI5MzIgMjguNjEzOCAyNy4yOTMyIDI4LjEzNzNDMjcuMjkzMiAyNy42NjA5IDI2LjkxNCAyNy4yNzQ2IDI2LjQ0NjIgMjcuMjc0NkMyNS45Nzg1IDI3LjI3NDYgMjUuNTk5MyAyNy42NjA5IDI1LjU5OTMgMjguMTM3M0MyNS41OTkzIDI4LjYxMzggMjUuOTc4NSAyOSAyNi40NDYyIDI5WiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTIwLjM1NjIgMjlDMjAuODI0IDI5IDIxLjIwMzIgMjguNjEzOCAyMS4yMDMyIDI4LjEzNzNDMjEuMjAzMiAyNy42NjA5IDIwLjgyNCAyNy4yNzQ2IDIwLjM1NjIgMjcuMjc0NkMxOS44ODg1IDI3LjI3NDYgMTkuNTA5MyAyNy42NjA5IDE5LjUwOTMgMjguMTM3M0MxOS41MDkzIDI4LjYxMzggMTkuODg4NSAyOSAyMC4zNTYyIDI5WiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTI4Ljk2NCAxOC42ODA5QzI5LjEyMiAxOC4xNTc3IDI4Ljc0MDQgMTcuNjI3MiAyOC4yMDYgMTcuNjI3MkgxOC44MDM3QzE4LjQ0NDggMTcuNjI3MiAxOC4xMjc4IDE3LjM5MzQgMTguMDIxOCAxNy4wNTA1QzE3Ljg4MjkgMTYuNTIwNSAxNy4wNjk0IDE2LjA3OTggMTUuNTE1OSAxNi4wMDA2QzE1LjIzMTMgMTUuOTg2MSAxNSAxNi4yMjQ3IDE1IDE2LjUxNjhDMTUgMTYuODMyMiAxNS4yNjg4IDE3LjA3NDQgMTUuNTc2MiAxNy4wODkyQzE1LjkwODggMTcuMTA1MSAxNi4yMzggMTcuMTY3OCAxNi41NTQ0IDE3LjI3NThDMTYuNzcxOSAxNy4zNDk5IDE2LjkyODkgMTcuNTM4NyAxNi45OTYgMTcuNzYzM0wxOS4zNTU1IDI1LjY3MTlDMTkuNDU3NSAyNi4wMTM4IDE5Ljc2NTQgMjYuMjQ3MyAyMC4xMTQzIDI2LjI0NzNIMjYuNjI5QzI2Ljk1OTQgMjYuMjQ3MyAyNy4yMjcyIDI1Ljk3MjkgMjcuMjI3MiAyNS42MzQzQzI3LjIyNzIgMjUuMjk1NyAyNi45NTk0IDI1LjAyMTIgMjYuNjI5IDI1LjAyMTJIMjAuNTQzNUMyMC40MzY5IDI1LjAyMTIgMjAuMzQzNCAyNC45NDg2IDIwLjMxNDQgMjQuODQzNUwyMC4wNzA5IDIzLjk1OThDMjAuMDI4IDIzLjgwNDEgMjAuMTQyMSAyMy42NDk1IDIwLjMgMjMuNjQ5NUgyNi44Nzg2QzI3LjIyNjUgMjMuNjQ5NSAyNy41MzM4IDIzLjQxNzMgMjcuNjM2NiAyMy4wNzY3TDI4Ljk2NCAxOC42ODA5WiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==",
+    "IconName":  "SectionIcon_OrderAndContractMgmt.svg",
+    "Color":  "#FFAC07",
+    "Version":  "1.9.5",
+    "MarketplaceLink":  "",
+    "HelpLink":  "",
+    "OrderLink":  "",
+    "SupportEmail":  "",
+    "Code":  "CrtOrderContractMgmtApp",
+    "Packages":  [
+                     {
+                         "UId":  "fb480d02-3bc2-b018-911c-db786eccbef0",
+                         "Name":  "CrtContract"
+                     },
+                     {
+                         "UId":  "da450b94-a3f0-b175-6f17-69158c961e84",
+                         "Name":  "CrtContractDocument"
+                     },
+                     {
+                         "UId":  "9367237f-34b9-f897-90f4-cda4a45242df",
+                         "Name":  "CrtContractVisaProvider"
+                     },
+                     {
+                         "UId":  "97a3cc83-ff05-a684-08ba-147d1f8a2209",
+                         "Name":  "CrtDocument"
+                     },
+                     {
+                         "UId":  "94637599-7126-73cd-8ba4-e71e49802618",
+                         "Name":  "CrtDocumentInOpportunity"
+                     },
+                     {
+                         "UId":  "da9a6a4e-a83e-ef28-3ab9-31afc7812d6d",
+                         "Name":  "CrtInvoice"
+                     },
+                     {
+                         "UId":  "c90f18e8-ebc1-b268-875b-7843db61b179",
+                         "Name":  "CrtInvoiceContract"
+                     },
+                     {
+                         "UId":  "6ea32650-c611-c103-15bf-0c2f8441d954",
+                         "Name":  "CrtInvoiceInC360"
+                     },
+                     {
+                         "UId":  "c5456819-b27d-918c-326d-ae0b2313534e",
+                         "Name":  "CrtInvoiceOrder"
+                     },
+                     {
+                         "UId":  "6b1519a7-7c08-0a9c-f010-eb6ff6717a35",
+                         "Name":  "CrtInvoiceVisaProvider"
+                     },
+                     {
+                         "UId":  "6f1525b3-7da8-0615-da18-21cae4420a1f",
+                         "Name":  "CrtOCMInLeadOppMgmt"
+                     },
+                     {
+                         "UId":  "dd2f2d3a-4c77-648a-7561-de0191ee3b3e",
+                         "Name":  "CrtOpportunityInvoice"
+                     },
+                     {
+                         "UId":  "365dd0e1-0da9-04be-0256-cc2661458c26",
+                         "Name":  "CrtOrder"
+                     },
+                     {
+                         "UId":  "f3194857-ef20-ae9f-538f-56c6ecfd2a46",
+                         "Name":  "CrtOrderContract"
+                     },
+                     {
+                         "UId":  "e498e645-566b-e9d8-2d15-6f1c60025401",
+                         "Name":  "CrtOrderContractCopilot"
+                     },
+                     {
+                         "UId":  "33516fc5-1c52-ed30-264b-a3cbcd3d1b33",
+                         "Name":  "CrtOrderContractInC360"
+                     },
+                     {
+                         "UId":  "7bde2918-b43d-0059-3a3c-ae135783af9d",
+                         "Name":  "CrtOrderContractMgmtApp"
+                     },
+                     {
+                         "UId":  "5812e9d4-35e9-e325-2995-b3e37aaae851",
+                         "Name":  "CrtOrderDocument"
+                     },
+                     {
+                         "UId":  "2a13c6ec-0242-23c4-4011-3e7a3b89d251",
+                         "Name":  "CrtOrderLead"
+                     },
+                     {
+                         "UId":  "f4c73657-d87d-8d4e-851a-51d05de34d73",
+                         "Name":  "CrtOrderVisaProvider"
+                     },
+                     {
+                         "UId":  "650ba69a-f061-ae66-b69b-aa0708ee0631",
+                         "Name":  "CrtProductBase"
+                     },
+                     {
+                         "UId":  "13b566ee-2796-51a0-b71b-6e477518f7c4",
+                         "Name":  "CrtProductCatalogue"
+                     },
+                     {
+                         "UId":  "34fc940a-4edc-df89-ae19-ecabba4315c7",
+                         "Name":  "CrtProductCatalogueInInvoice"
+                     },
+                     {
+                         "UId":  "29ed039e-ad04-ef90-0755-2f8ffde4cd80",
+                         "Name":  "CrtProductCatalogueInOrder"
+                     },
+                     {
+                         "UId":  "1f6d3128-d0ab-d281-9eca-55466ac60db5",
+                         "Name":  "CrtProductSpecification"
+                     },
+                     {
+                         "UId":  "1eab6b81-2589-b588-24a5-60a1832e43d1",
+                         "Name":  "CrtSalesContracts"
+                     },
+                     {
+                         "UId":  "52630158-3e5b-2e48-e55c-cf78a2439812",
+                         "Name":  "CrtSalesInC360"
+                     },
+                     {
+                         "UId":  "4054de5c-91a4-6d40-7fad-e8dff26ee3a8",
+                         "Name":  "CrtSpecification"
+                     },
+                     {
+                         "UId":  "9fc007fe-2882-0941-7cdc-e611d7fae63e",
+                         "Name":  "CrtSupplyPayment"
+                     }
+                 ]
+}

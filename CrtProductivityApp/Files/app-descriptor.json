@@ -1,0 +1,28 @@
+﻿{
+    "Name":  "Productivity",
+    "Description":  "",
+    "Maintainer":  "Creatio",
+    "Icon":  "PHN2ZyB3aWR0aD0iMzMiIGhlaWdodD0iMzMiIHZpZXdCb3g9IjAgMCAzMyAzMyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIyLjU5NjMgNi4xNjEzVjguMzIwNDRIMjQuNDQ5MkMyNS44MTQgOC4zMjA0NCAyNi45MjA0IDkuMzAwMDcgMjYuOTIwNCAxMC41MDg1VjEyLjc1NzVMNi41NzEyOSAxMi43NjM3VjEwLjUxNDdDNi41NzEyOSA5LjMwNjMyIDcuNjc3NzEgOC4zMjY3IDkuMDQyNTUgOC4zMjY3SDEwLjg5NTRWNi4xNjEzQzEwLjg5NTQgNC42MTUxOCAxMy40NTk1IDQuNjE1MTggMTMuNDU5NSA2LjE2MTNWOC4zMjY3TDIwLjAzMjIgOC4zMjA0NFY2LjE2MTNDMjAuMDMyMiA0LjY0MTc3IDIyLjU5NjMgNC42Mjg3MiAyMi41OTYzIDYuMTYxM1oiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik02LjU3MTI5IDE0LjU1NEwyMC4zNTg0IDE0LjU0OTdDMTcuOTIxNyAxNS43OTI4IDE2LjI1MyAxOC4zMjYyIDE2LjI1MyAyMS4yNDk0QzE2LjI1MyAyMy41NTU0IDE3LjI5MTUgMjUuNjE4OSAxOC45MjYzIDI2Ljk5NzdMOS4wNDI1NSAyNy4wMDE3QzcuNjc3NzEgMjcuMDAxNyA2LjU3MTI5IDI2LjAyMjEgNi41NzEyOSAyNC44MTM3VjE0LjU1NFoiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMjkuMTMwOSAyMS4yNDkxQzI5LjEzMDkgMjQuMjEwMyAyNi43MzAzIDI2LjYxMDkgMjMuNzY5MSAyNi42MTA5QzIwLjgwNzkgMjYuNjEwOSAxOC40MDczIDI0LjIxMDMgMTguNDA3MyAyMS4yNDkxQzE4LjQwNzMgMTguMjg3OSAyMC44MDc5IDE1Ljg4NzMgMjMuNzY5MSAxNS44ODczQzI2LjczMDMgMTUuODg3MyAyOS4xMzA5IDE4LjI4NzkgMjkuMTMwOSAyMS4yNDkxWk0yMy45OTE3IDIzLjQ0ODRDMjMuNjY3NyAyMy44NTM0IDIzLjA4NzcgMjMuOTQzNCAyMi42NTYxIDIzLjY1NTdMMjAuODgwMiAyMi40NzE1QzIwLjQ4MTkgMjIuMjA2IDIwLjM3NDQgMjEuNjY3OSAyMC42NCAyMS4yNjk3QzIwLjkwNTUgMjAuODcxNyAyMS40NDM0IDIwLjc2NDIgMjEuODQxNSAyMS4wMjk2TDIzLjA1ODYgMjEuODQwOUwyNS40ODYgMTguODA2NEMyNS43ODUgMTguNDMyNyAyNi4zMzAzIDE4LjM3MjEgMjYuNzA0MSAxOC42NzEyQzI3LjA3NzcgMTguOTcwMSAyNy4xMzgyIDE5LjUxNTQgMjYuODM5MyAxOS44ODlMMjMuOTkxNyAyMy40NDg0WiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==",
+    "IconName":  "calendar_check.svg",
+    "Color":  "#009688",
+    "MarketplaceLink":  "",
+    "HelpLink":  "",
+    "OrderLink":  "",
+    "SupportEmail":  "",
+    "Code":  "CrtProductivityApp",
+    "Packages":  [
+                     {
+                         "UId":  "36c1a9a5-2dde-4fff-a39a-d2fadcab5bd4",
+                         "Name":  "CrtProductivityApp"
+                     },
+                     {
+                         "UId":  "b0c03b59-76ac-a65e-7d22-a87fb348e020",
+                         "Name":  "CrtProductivityMobile"
+                     },
+                     {
+                         "UId":  "f21b418a-13a5-99a7-f4b8-ab8b88e5ce61",
+                         "Name":  "CrtProductivityCopilot"
+                     }
+                 ],
+    "Version":  "1.11.1"
+}

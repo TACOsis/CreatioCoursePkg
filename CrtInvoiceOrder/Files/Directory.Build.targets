@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/CrtInvoiceOrder/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/CrtInvoiceOrder/Data/**" />
+		<Compile Remove="$(PkgPath)/CrtInvoiceOrder/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/CrtInvoiceOrder/Schemas\**" />
+		<Compile Remove="$(PkgPath)/CrtInvoiceOrder/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtInvoiceOrder/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtInvoiceOrder/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtInvoiceOrder/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtInvoiceOrder/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtInvoiceOrder/Resources/**" />
+		<None Remove="$(PkgPath)/CrtInvoiceOrder/Assemblies/**" />
+		<None Remove="$(PkgPath)/CrtInvoiceOrder/Data/**" />
+		<None Remove="$(PkgPath)/CrtInvoiceOrder/SqlScripts/**" />
+		<None Remove="$(PkgPath)/CrtInvoiceOrder/Schemas/**" />
+		<None Remove="$(PkgPath)/CrtInvoiceOrder/Resources/**" />
+  </ItemGroup>
+</Project>

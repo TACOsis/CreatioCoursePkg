@@ -1,0 +1,6 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtMLLeadConversion/Schemas/Account/Account.cs" Condition="Exists('$(PkgPath)/CrtMLLeadConversion/Schemas/Account/Account.cs')" />
+		<Compile Include="$(PkgPath)/CrtMLLeadConversion/Schemas/Contact/Contact.cs" Condition="Exists('$(PkgPath)/CrtMLLeadConversion/Schemas/Contact/Contact.cs')" />
+	</ItemGroup>
+</Project>
