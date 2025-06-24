@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "21d3c34b-8ce2-4e84-a760-d89f5cf3697d",
+    "Name": "UsrValeriyTestBusinessProcess",
+    "ModifiedOnUtc": "\/Date(1750796587000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "UsrTestBusinessProcess",
+    "DependsOn": []
+  }
+}
