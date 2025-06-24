@@ -362,7 +362,7 @@ MigrationBackup/
 FodyWeavers.xsd
 
 
-# Creatio Studio Packages
+# Creatio Base Products Packages
 AnalyticsDashboard
 Base
 CampaignDesigner
@@ -374,25 +374,54 @@ CoreForecast
 cliogate
 ContentBuilder
 Custom
+CrtAnalyticsDashboard
+CrtBase
+CrtCasesInC360
+CrtCore
+CrtCustomer360App
+CrtCustomer360Mobile
+CrtDeduplication
+CrtInvoiceInC360
+CrtOpportunityInC360
+CrtOrderContractInC360
+CrtSalesInC360
+CrtSLAInC360
+CrtDesignerTools
+CrtNextStep
+CrtNUI
+CrtUIv2
 Deduplication
 DesignerTools
 Exchange
+FeatureToggling
+Finesse
 FolderTree
 HomePage
 IntegrationV2
+MarketingCommon
+MobileDesigner
 NUI
 OmnichannelMessaging
 Opportunity
 PivotTable
+ProductCore
 RelationshipDesigner
+SalesEnterprise
 ServiceDesigner
+ServiceEnterpriseSoftkey
+SsoSettings
 SspWorkplace
 UIv2
 Workplace
+XSSProtection
 placeholder.txt
 OpenIdAuth
 StoreDemo
 CSP
 MLProcessDesigner
+GlbDataBinding
 
 .svn
+
+UsrApp_uxqmrts
+UsrApp_zh7vfg5
